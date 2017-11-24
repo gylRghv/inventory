@@ -1,0 +1,227 @@
+.agentListingBox{margin-top:60px;display:block;position:relative;background:#f6f8f9;overflow:hidden}
+.agentListingBox .breadcrumbBox{margin:0}
+.agentListingBox .listingBox{display:block;width:50%;float:left}
+.agentListingBox .listingBox .tabBox{margin:15px;display:block;border-bottom:#e5e5e5 solid 1px;background:#fff;overflow:hidden}
+.agentListingBox .listingBox .tabBox ul{padding:0 25px;display:block}
+.agentListingBox .listingBox .tabBox ul li{margin-right:5px;float:left}
+.agentListingBox .listingBox .tabBox ul li:last-child{float:right;width:30%;padding:8px 0;position:relative}
+.agentListingBox .listingBox .tabBox ul li input[type='text']{float:right;width:100%;height:40px;border:none;outline:none;border-bottom:1px solid #ccc}
+.agentListingBox .listingBox .tabBox ul li em{position:absolute;right:0;top:18px;color:#5fba34;font-size:20px;cursor:pointer}
+.agentListingBox .listingBox .tabBox ul li a{padding:0 20px 0 10px;font-size:18px;color:#333;line-height:55px;display:block;text-decoration:none;border-bottom:#fff solid 3px}
+.agentListingBox .listingBox .tabBox ul li.active a{border-bottom:#ee2f37 solid 3px}
+.agentListingBox .listingBox .headingBox{margin:25px 15px;display:block}
+.agentListingBox .listingBox .headingBox h1{font-size:22px;font-family:'SourceSansPro-Semibold';line-height:44px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dropDownSelectBox{width:auto;float:right}
+.dropDownSelectBox button{padding:5px;text-align:left;position:relative;color:#414141}
+.dropDownSelectBox .input-group-btn.select{position:relative}
+.dropDownSelectBox .input-group-btn.select em{padding:2px 4px;float:right;color:#a97fc0;-webkit-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.dropDownSelectBox .input-group-btn.select.open em{-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.dropDownSelectBox .input-group-btn.select .dropdown-menu{top:42px;-webkit-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out;-webkit-transform-origin:50% -10px;-moz-transform-origin:50% -10px;-ms-transform-origin:50% -10px;-o-transform-origin:50% -10px;transform-origin:50% -10px;height:0;opacity:0;overflow:hidden;display:inherit;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0)}
+.dropDownSelectBox .input-group-btn.select.open .dropdown-menu{height:auto;overflow:visible;opacity:1;-webkit-transition:-webkit-transform .3s cubic-bezier(.3,1.6,.7,1),.3s opacity ease-out;-moz-transition:-moz-transform .3s cubic-bezier(.3,1.6,.7,1),.3s opacity ease-out;-o-transition:-o-transform .3s cubic-bezier(.3,1.6,.7,1),.3s opacity ease-out;transition:transform .3s cubic-bezier(.3,1.6,.7,1),.3s opacity ease-out;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);right:-1px;left:inherit;top:43px;border:none;box-shadow:0 1px 12px rgba(0,0,0,0.2)}
+.dropDownSelectBox .input-group-btn.select button{padding-right:25px;background:none;line-height:27px;color:#fff;border:none;box-shadow:none;position:relative;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.dropDownSelectBox .input-group-btn.select.open button{background:#f6f8f9;border:#ee2f37 solid 1px;color:#ee2f37}
+.dropDownSelectBox .input-group-btn.select.open .dropdown-menu::after{content:'';position:absolute;top:-10px;right:15px;width:0;height:0;border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:10px solid #fff}
+.dropDownSelectBox .input-group-btn.select button::after{padding:8px;content:'';position:absolute;top:0;right:0;font-size:22px;font-family:FontAwesome;color:#ee2f37}
+.dropDownSelectBox .input-group-btn.select.open button::after{-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg);transition:.2s}
+.dropDownSelectBox .input-group-btn.select button{padding:8px 35px 8px 15px;float:right;position:relative;max-width:inherit;background:#f6f8f9;border:#ee2f37 solid 1px;border-radius:5px;min-width:160px;color:#ee2f37;font-size:16px;text-align:left}
+.agentListingBox .tileBox{padding:0 15px;display:block}
+.agentListingBox .tileBox .tile{padding:15px;margin-bottom:20px;display:block;background:#fff}
+.agentListingBox .tileBox .tile.active{border:#0094da solid 1px;box-shadow:0 0 15px #70cdff;position:relative;-webkit-animation-name:example;-webkit-animation-duration:2s;animation-name:example;animation-duration:2s}
+.agentListingBox .tileBox .tile figure{display:inline-block;position:relative}
+.agentListingBox .tileBox .tile figure .rentBox{padding:5px 12px;position:absolute;top:8px;left:8px;font-size:14px;background:#681de4;text-transform:uppercase;border-radius:5px;color:#fff}
+.agentListingBox .tileBox .tile figure .rentBox1{padding:5px 12px;position:absolute;bottom:0;right:0;font-size:14px;background-color:rgba(0,0,0,0.9);text-transform:uppercase;color:#fff}
+.agentListingBox .tileBox .tile figure .saleBox{padding:5px 12px;position:absolute;top:8px;left:8px;font-size:14px;background:#e1b129;text-transform:uppercase;border-radius:5px;color:#fff}
+.agentListingBox .tileBox .tile .propertyName{font-size:18px;color:#0094da;text-align:left;font-family:'SourceSansPro-Semibold';text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.agentListingBox .tileBox .tile .countrybox{font-size:14px;color:#666;text-align:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.agentListingBox .tileBox .tile .priceBox{font-size:18px;color:#333;font-family:'SourceSansPro-Bold';padding:0;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.agentListingBox .tileBox .tile .sqftPriceBox{font-size:16px;color:#666;text-align:right}
+.agentListingBox .tileBox .tile .table-responsive{margin:20px 0;border-radius:5px}
+.agentListingBox .tileBox .tile table{margin:0;font-size:14px;text-align:center;border:#e5e5e5 solid 1px;border-radius:3px}
+.agentListingBox .tileBox .tile table tr th{background:#1f2a3b;color:#fff;text-align:center;font-weight:400}
+.agentListingBox .tileBox .tile table tr td{background:#fff;color:#333;border:#e5e5e5 solid 1px}
+.agentListingBox .tileBox .tile table tr td.viewMore{background:#f5f5f5}
+.agentListingBox .tileBox .tile table tr td.viewMore a{display:inline-block;color:#0094da}
+.agentListingBox .tileBox .tile .agentDetailsBox{padding-left:50px;display:block;position:relative}
+.agentListingBox .tileBox .tile .agentDetailsBox figure{display:block;position:absolute;left:0;top:0;width:40px;height:40px;border:#e5e5e5 solid 1px}
+.agentListingBox .tileBox .tile .agentDetailsBox p{margin:0;font-size:16px;font-family:'SourceSansPro-Semibold';color:#333;line-height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.agentListingBox .tileBox .tile .agentDetailsBox span{font-size:16px;font-family:'SourceSansPro-Semibold';color:#666;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.agentListingBox .tileBox .tile ul{display:block;float:right}
+.agentListingBox .tileBox .tile ul li{margin-right:15px;display:block;float:left}
+.agentListingBox .tileBox .tile ul li:nth-child(2){margin-right:0}
+.agentListingBox .tileBox .tile ul li .btn{padding:8px 14px;border-radius:3px}
+.agentListingBox .tileBox .tile ul li .btn-default{border:#1f2a3b solid 1px;color:#1f2a3b}
+.agentListingBox .tileBox .tile ul li .btn-danger{border:#ee2f37 solid 1px;color:#fff;background:#ee2f37;box-shadow:0 2px 8px 0 rgba(0,0,0,0.35)}
+.agentListingBox .mapBox{margin-top:60px;display:block;width:50%;float:left;position:fixed;top:0;right:0}
+.agentListingBox .filterTypeBox{display:block;position:fixed;right:0;top:20%;z-index:97;width:120px;border-radius:5px 0 0 5px;overflow:hidden}
+.agentListingBox .filterTypeBox ul{display:block}
+.agentListingBox .filterTypeBox ul li{display:block;text-align:center;color:#fff;font-size:14px}
+.agentListingBox .filterTypeBox ul li:first-child{font-size:15px;text-transform:uppercase;line-height:38px;background:#3d4d66}
+.agentListingBox .filterTypeBox ul li em{margin-bottom:10px;display:block;color:#fff;font-size:22px}
+.agentListingBox .filterTypeBox ul li span{display:block}
+.agentListingBox .filterTypeBox ul li a{padding:15px;display:block;color:#fff}
+.agentListingBox .filterTypeBox ul li a:hover,.agentListingBox .filterTypeBox ul li a:focus{text-decoration:none}
+.agentListingBox .filterTypeBox ul li.priceBox{background:#05a69b;background:-moz-linear-gradient(-45deg,rgba(5,166,155,1) 0%,rgba(95,222,170,1) 100%);background:-webkit-linear-gradient(-45deg,rgba(5,166,155,1) 0%,rgba(95,222,170,1) 100%);background:linear-gradient(135deg,rgba(5,166,155,1) 0%,rgba(95,222,170,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#05a69b',endColorstr='#5fdeaa',GradientType=1)}
+.agentListingBox .filterTypeBox ul li.zoneLocation{background:#a745d5;background:-moz-linear-gradient(-45deg,rgba(167,69,213,1) 0%,rgba(111,95,233,1) 100%);background:-webkit-linear-gradient(-45deg,rgba(167,69,213,1) 0%,rgba(111,95,233,1) 100%);background:linear-gradient(135deg,rgba(167,69,213,1) 0%,rgba(111,95,233,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a745d5',endColorstr='#6f5fe9',GradientType=1)}
+.agentListingBox .filterTypeBox ul li.connectingRoads{background:#ffb75b;background:-moz-linear-gradient(-45deg,rgba(255,183,91,1) 0%,rgba(226,80,95,1) 100%);background:-webkit-linear-gradient(-45deg,rgba(255,183,91,1) 0%,rgba(226,80,95,1) 100%);background:linear-gradient(135deg,rgba(255,183,91,1) 0%,rgba(226,80,95,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb75b',endColorstr='#e2505f',GradientType=1)}
+.agentListingBox .filterTypeBox ul li.projectAttributes{background:#c800c8;background:-moz-linear-gradient(-45deg,rgba(200,0,200,1) 0%,rgba(255,103,133,1) 100%);background:-webkit-linear-gradient(-45deg,rgba(200,0,200,1) 0%,rgba(255,103,133,1) 100%);background:linear-gradient(135deg,rgba(200,0,200,1) 0%,rgba(255,103,133,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c800c8',endColorstr='#ff6785',GradientType=1)}
+.agentListingBox .filterTypeBox ul li.unitPreferences{background:#185daa;background:-moz-linear-gradient(-45deg,rgba(24,93,170,1) 0%,rgba(42,168,204,1) 100%);background:-webkit-linear-gradient(-45deg,rgba(24,93,170,1) 0%,rgba(42,168,204,1) 100%);background:linear-gradient(135deg,rgba(24,93,170,1) 0%,rgba(42,168,204,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#185daa',endColorstr='#2aa8cc',GradientType=1)}
+.agentListingBox .filterTypeBox ul li.developers{background:#185daa}
+.agentListingBox .viewFilterBox{display:block;position:fixed;right:-100%;top:0;z-index:10000;width:50%;background:#fff;box-shadow:0 5px 15px #ccc;transition:.5s}
+.agentListingBox .viewFilterBox.active{right:0;transition:.5s}
+.agentListingBox .viewFilterBox .headingBox{padding:15px;margin:0px;display:block;overflow:hidden}
+.agentListingBox .viewFilterBox .headingBox h2{padding:0;margin:0;float:left;font-size:22px;line-height:30px;color:#464646}
+.agentListingBox .viewFilterBox .headingBox .clearBtn{padding:4px 10px;border:#d5d5d5 solid 1px;float:right;color:#464646;font-size:14px;border-radius:3px;cursor:pointer}
+.agentListingBox .viewFilterBox .headingBox .clearBtn em{margin-left:5px;font-size:10px;color:#bababa}
+.agentListingBox .viewFilterBox .filterSectionBox{border-top:1px solid #ddd;display:block;position:relative}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs{border-bottom:none;background:#f1f2f7}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs>li{margin:0;float:none;border-bottom:#d7d7dc solid 1px;border-radius:0;cursor:hand}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs>li>a{padding:15px;display:block;font-size:14px;color:#464646;transition:.5s;border:none;border-radius:0}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs>li>a:hover{background:#fff}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content{padding:0 15px 25px 0;display:block;overflow:hidden;overflow-y:auto}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content::-moz-scrollbar{width:8px;background-color:#c4c6c6;position:absolute;z-index:10000}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content::-moz-scrollbar-thumb{background-color:#01ace4}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content::-webkit-scrollbar{width:8px;background-color:#f1f1f1;position:absolute;z-index:10000;border-radius:30px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content::-webkit-scrollbar-thumb{background-color:#787878;border-radius:30px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox{display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox h4{padding:20px 0 0;margin-bottom:15px;font-weight:700}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .headings{padding:15px 0;font-size:14px;color:#464646;float:left}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .radio{margin:15px 15px 0 0;float:left}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .radio-info input[type="radio"]:checked + label::before{border-color:#0094da}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .radio-info input[type="radio"]:checked + label::after{background-color:#0094da}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider{margin:2px 18px 0}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-line{height:2px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-slider{width:20px;height:20px;background:#0094da;top:16px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-bar{background:#0094da}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-slider,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-slider.state_hover,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-slider:hover{border:0!important}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-line-left,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-line-mid,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-line-right,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-bar{height:2px!important}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-from,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-to,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-single{display:block!important;top:-27px!important}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-from:after,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-to:after,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-single:after{bottom:-16px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox label{font-size:14px;font-weight:400;color:#464646}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .searchBox{padding:12px 0 6px;margin-bottom:10px;display:block;border-bottom:#e5e5e5 solid 1px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .searchBox .input-group-addon{padding:6px 0;border:none;background:none}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .searchBox .form-control{border:none;outline:none;box-shadow:none}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox{padding:8px 0 0;margin-left:21px;display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox input[type=checkbox]{height:inherit;width:inherit}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkbox-info input[type="checkbox"]:checked + label::before,.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkbox-info input[type="radio"]:checked + label::before{background-color:#0094da;border-color:#0094da}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label{margin:0;font-weight:400;font-size:14px;color:#464646}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .input-group-btn > .btn{height:34px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox{padding:30px 0;display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul{display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li{margin-bottom:2px;display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelBox{padding:10px 15px 10px 10px;background:#f0f0f0;overflow:hidden;cursor:pointer}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelBox .checkBox{padding:0;margin:0 0 0 21px;float:left}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelBox em{font-size:20px;float:right;color:#ccc;transition:.5s}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelContentBox{padding:5px 25px;display:none}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelContentBox .checkBox{padding:5px 0;margin:0 0 0 21px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li.active .panelContentBox{display:block}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li.active .panelBox.active em{transition:.5s;-ms-transform:rotate(-180deg);-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .unitPreferences{padding:15px 0}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .unitPreferences h4{margin:20px 0 15px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .project-attributes{padding:15px 0}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .project-attributes h4{margin:10px 0 15px;padding-top:15px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .agent-list{padding:15px 0}
+.agentListingBox .viewFilterBox .actionBox{padding:30px 20px;border-top:#e5e5e5 solid 1px;display:block;text-align:right}
+.agentListingBox .viewFilterBox .actionBox .btn{padding:8px 30px}
+.agentListingBox .viewFilterBox .actionBox .btn.apply{margin-left:10px;background:#0094da;color:#fff}
+.agentListingBox .viewFilterBox .actionBox .btn:hover{background:#0094da;color:#fff;border:#0094da solid 1px}
+.agentListingBox .filterBtnBox{padding:14px;position:fixed;right:20px;bottom:20px;background:#914fb7;width:50px;height:50px;border-radius:50%;cursor:pointer;z-index:999;color:#fff;display:none}
+.agentListingBox .filterBtnBox.active{display:none}
+.agentListingBox .filterBtnBox em{font-size:25px}
+.agentListingBox .amenityBox{margin:5px 0 25px;display:block;overflow:hidden;border-bottom:#e5e5e5 solid 1px}
+.agentListingBox .amenityBox ul{display:block;width:100%}
+.agentListingBox .amenityBox ul li{padding:15px 0 15px 28px;margin-right:10px!important;float:left;position:relative}
+.agentListingBox .amenityBox ul li span.moon{position:absolute;top:14px;left:0;font-size:22px!important;color:#6d6d6d}
+.agentListingBox .amenityBox ul li span.moon span{display:inline-block;font-size:20px}
+.agentListingBox .amenityBox ul li label{margin:0;display:block;font-weight:400;color:#666;font-size:14px;line-height:normal}
+.agentListingBox .amenityBox ul li .amenityDetails{margin:0;display:block;font-weight:400;color:#333;font-size:14px}
+.markerlabels{color:#3D4D65!important;background-color:#fff!important;font-family:"Lucida Grande","Arial",sans-serif!important;font-size:10px!important;font-weight:700!important;text-align:center!important;width:85px!important;padding:3px!important;border:1px solid #ccc!important;white-space:nowrap!important;opacity:1!important;text-overflow:ellipsis!important;display:none!important}
+@media screen and (max-width:1600px) {
+.agentListingBox .tileBox .tile .table-responsive{margin:15px 0}
+.agentListingBox .tileBox .tile table tr th,.agentListingBox .tileBox .tile table tr td{padding:3px 8px}
+}
+@media screen and (max-width:1366px) {
+.agentListingBox .listingBox .headingBox h1{font-size:20px;line-height:38px}
+.agentListingBox .listingBox .tabBox ul{padding:0 10px}
+.agentListingBox .listingBox .tabBox ul li a{font-size:15px;font-size:16px;line-height:42px}
+.dropDownSelectBox .input-group-btn.select button{padding:5px 35px 5px 15px}
+.dropDownSelectBox .input-group-btn.select button::after{padding:5px 8px}
+.agentListingBox .tileBox .tile .table-responsive{margin:10px 0 15px}
+.agentListingBox .tileBox .tile ul li{margin-right:10px}
+.agentListingBox .tileBox .tile ul li .btn{padding:8px 10px}
+.agentListingBox .filterTypeBox ul li em{margin-bottom:2px}
+.agentListingBox .filterTypeBox ul li span{font-size:13px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:145px}
+.agentListingBox .listingBox .tileListingBox .tile,.agentListingBox .listingBox .tileListingBox .tile .card .back ul{height:366px}
+.agentListingBox .listingBox .tileListingBox .tile .front .sizeRange,.agentListingBox .listingBox .tileListingBox .tile .front .bhkOptions{font-size:10px}
+.agentListingBox .listingBox .tileListingBox .tile .front .sizeRangeDetails,.agentListingBox .listingBox .tileListingBox .tile .front .bhkOptionsDetails{font-size:9px}
+.agentListingBox .listingBox .tileListingBox .tile .front .buttonBox2 ul li a{font-size:12px}
+.agentListingBox .listingBox .tileListingBox .tile .card .back ul li a,.agentListingBox .listingBox .tileListingBox .tile .card .back ul li span{font-size:13px}
+}
+@media screen and (max-width:1280px) {
+.agentListingBox .tileBox .tile ul li .btn{padding:8px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:140px}
+.agentListingBox .listingBox .tileListingBox .tile,.agentListingBox .listingBox .tileListingBox .tile .card .back ul{height:365px}
+}
+@media screen and (max-width:1024px) {
+.agentListingBox .tileBox .tile figure{margin:0 auto 20px;width:225px;height:225px}
+.agentListingBox .tileBox .tile ul li .btn{padding:8px 15px}
+.agentListingBox .dropDownSelectBox{width:100%}
+.agentListingBox .dropDownSelectBox .input-group-btn.select button{width:100%}
+.agentListingBox .listingBox .headingBox{margin-top:0}
+.agentListingBox .listingBox .headingBox h1{padding-bottom:10px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .headings{padding:15px;display:block;float:none}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:250px}
+.agentListingBox .statusPossion{padding-top:0}
+.agentListingBox .tileBox .tile .priceBox{text-align:left}
+}
+@media screen and (max-width:768px) {
+.agentListingBox .listingBox{width:100%}
+.agentListingBox .mapBox{display:none}
+.agentListingBox .listingBox{width:100%}
+.agentListingBox .mapBox{display:none}
+.agentListingBox .filterTypeBox{display:none}
+.agentListingBox .filterBtnBox{display:block}
+.agentListingBox .viewFilterBox{width:80%}
+.agentListingBox .viewFilterBox .actionBox{padding:15px 20px}
+}
+@media screen and (max-width:640px) {
+.agentListingBox .viewFilterBox{width:90%}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs{overflow:hidden;overflow-y:auto}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:250px}
+}
+@media screen and (max-width:480px) {
+.agentListingBox .listingBox .tabBox ul{white-space:nowrap;overflow:hidden;height:60px;overflow-x:auto}
+.agentListingBox .listingBox .tabBox ul li{float:none;display:inline-block}
+.agentListingBox .tileBox .tile .priceBox,.agentListingBox .tileBox .tile .sqftPriceBox{text-align:left}
+.agentListingBox .tileBox .tile .propertyName{font-size:22px}
+.agentListingBox .tileBox .tile .priceBox{padding-top:10px}
+.agentListingBox .tileBox .tile ul{margin-top:12px;width:100%;float:none}
+.agentListingBox .tileBox .tile ul li{margin-right:4%;width:48%}
+.agentListingBox .tileBox .tile ul li .btn{width:100%}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:175px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider .irs-slider{top:15px!important}
+.agentListingBox .mostUseful.clearfix h3{font-size:15px}
+.agentListingBox .amenityBox ul li{margin-right:5px!important}
+}
+@media screen and (max-width:435px) {
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:140px}
+.agentListingBox .mostUseful.clearfix .usefullTag{display:none}
+}
+@media screen and (max-width:415px) {
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:135px}
+}
+@media screen and (max-width:412px) {
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:135px}
+}
+@media screen and (max-width:376px) {
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:115px}
+.agentListingBox .viewFilterBox .filterSectionBox .tabs>li>a{font-size:12px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .zoneLocationBox ul li .panelContentBox{padding:0}
+}
+@media screen and (max-width:320px) {
+.agentListingBox .viewFilterBox .filterSectionBox .tabs > li > a{padding:8px 5px;font-size:11px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label{font-size:12px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .checkBox label span{max-width:102px}
+.agentListingBox .viewFilterBox .filterSectionBox .tab-content .priceFilterBox .sqRangeSlider{margin:2px 15px 0}
+.agentListingBox .PriceSelectBox .dropDownSelectBox .input-group-btn.select button{width:286px}
+}

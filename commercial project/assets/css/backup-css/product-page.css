@@ -1,0 +1,172 @@
+.breadcrumb{padding:8px 0;margin:0;background:none}
+.customBox{margin-top:60px;display:block;background:#f6f8f9}
+.customBox .customContainer{margin:auto;display:block;overflow:hidden;width:1350px}
+.productDetailBox{padding:15px 15px 40px 530px;margin-bottom:30px;display:block;background:#fff;position:relative;min-height:600px}
+.productDetailBox .productGalleryBox{display:block;width:500px;height:500px;position:absolute;left:15px;top:25px}
+.productDetailBox .productGalleryBox .leftBox{width:83px;float:left;display:block}
+.productDetailBox .productGalleryBox .leftBox ul{display:block}
+.productDetailBox .productGalleryBox .leftBox ul li{margin-top:15px;display:block;border:#e8e8e8 solid 1px;text-align:center;cursor:pointer}
+.productDetailBox .productGalleryBox .leftBox ul li:first-child,.productDetailBox .productGalleryBox .leftBox ul li:last-child{margin-top:0}
+.productDetailBox .productGalleryBox .leftBox ul li em{font-size:20px}
+.productDetailBox .productGalleryBox .rightBox{width:400px;float:right;display:block}
+.productDetailBox .productGalleryBox .rightBox figure{display:block;border:#e8e8e8 solid 1px}
+.productDetailBox .productGalleryBox .rightBox ul{padding-top:20px;display:block}
+.productDetailBox .productGalleryBox .rightBox ul li{float:left;width:49%}
+.productDetailBox .productGalleryBox .rightBox ul li:nth-child(2){float:right}
+.productDetailBox .productGalleryBox .rightBox ul li .btn{padding:12px;text-transform:uppercase;width:100%;font-size:16px;font-family:'SourceSansPro-Semibold';border:none;border-radius:3px;background:#ee2f37}
+.productDetailBox .productGalleryBox .rightBox ul li .btn.fav{background:#1f2a3b}
+.productDetailBox .detailSection{padding:0 15px;display:block}
+.productDetailBox .detailSection h1{padding-top:5px;font-size:24px;color:#333;font-family:'SourceSansPro-Semibold'}
+.productDetailBox .detailSection h2{padding-top:25px;font-size:22px;color:#333}
+.productDetailBox .detailSection .city{display:block;font-size:16px;color:#0094da}
+.productDetailBox .detailSection .priceBox{font-size:24px;color:#ec2e37}
+.productDetailBox .detailSection .priceBox span{display:block;text-align:right}
+.productDetailBox .detailSection .priceBox span.perSq{font-size:16px;color:#333}
+.productDetailBox .detailSection .amenityBox{display:block;border-bottom:#e5e5e5 solid 1px;overflow:hidden}
+.productDetailBox .detailSection .amenityBox ul{margin-top:20px;display:block}
+.productDetailBox .detailSection .amenityBox ul li{padding:15px 0 15px 40px;float:left;position:relative;width:25%}
+.productDetailBox .detailSection .amenityBox ul li em{position:absolute;top:20px;left:0;font-size:28px;color:#6d6d6d}
+.productDetailBox .detailSection .amenityBox ul li label{margin:0;display:block;font-weight:400;color:#666;font-size:16px}
+.productDetailBox .detailSection .amenityBox ul li span{margin:0;display:block;font-weight:400;color:#333;font-size:16px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox{margin-top:15px;display:block;overflow:hidden;border:#e5e5e5 solid 1px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid{display:block;border-left:#e5e5e5 solid 1px;float:left;min-height:100px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid .box{padding:15px 50px;display:block}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid .box .heading{font-size:16px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid1{border-left:none;width:28%}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid1 .heading{color:#929292;text-align:center}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid1 .avgPriceBox{display:block;font-size:28px;color:#464646;font-family:'SourceSansPro-Bold';text-align:center}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid1 .avgPriceBox span{font-size:14px;font-family:'SourceSansPro-Light'}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid2{width:32%}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid2 .heading{color:#59b72d;text-align:center}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid2 .appreciationBox{display:block;font-size:28px;color:#59b72d;font-family:'SourceSansPro-Bold';text-align:center}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid2 .appreciationBox em{font-size:20px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3{width:40%}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 .heading{color:#000;text-align:left}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul{padding-top:10px;display:block}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li{margin-right:5px;display:inline-block}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li em{display:block;font-size:28px}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li:nth-child(1) em{color:#d72449}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li:nth-child(2) em{color:#ee772e}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li:nth-child(3) em{color:#ffc13f}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li:nth-child(4) em{color:#a5c324}
+.productDetailBox .detailSection .microTilesBoxx .detailsBox .grid3 ul li:nth-child(5) em{color:#4eca19}
+.keyParametersBoxx{display:block}
+.keyParametersBoxx .sliderBox{margin-top:15px;display:block;background:#fff;height:145px;width:100%;border:#e5e5e5 solid 1px}
+.keyParametersBoxx .sliderBox .item{padding:20px;text-align:center}
+.keyParametersBoxx .sliderBox .item em{margin-bottom:15px;font-size:30px;color:#0094da}
+.keyParametersBoxx .sliderBox .item h4{padding-top:5px;font-size:24px;color:#333}
+.keyParametersBoxx .sliderBox .item p{margin:0;font-size:14px;color:#333}
+.keyParametersBoxx .sliderBox .owl-controls{padding-top:50px;margin:0;position:absolute;top:0;right:0;height:100%;width:100%}
+.keyParametersBoxx .sliderBox .owl-controls .owl-prev{padding:4px;font-family:'icomoon';font-size:15px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:30px;height:30px;position:absolute;left:-20px;opacity:1}
+.keyParametersBoxx .sliderBox .owl-controls .owl-next{padding:4px;font-family:'icomoon';font-size:15px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:30px;height:30px;position:absolute;right:-20px;opacity:1}
+.keyParametersBoxx .sliderBox .owl-controls .owl-prev:hover,.keyParametersBoxx .sliderBox .owl-controls .owl-next:hover{background:#ee2f37;color:#fff;border:#ee2f37 solid 1px}
+.projectInfoBox{padding-right:345px;display:block;position:relative}
+.projectInfoBox h4{margin:25px 0 10px;font-size:22px;color:#333}
+.projectInfoBox .infoBox{padding:30px;background:#fff;border-radius:3px}
+.projectInfoBox .infoBox .headingBox{margin:-30px -30px 0;border-bottom:#e5e5e5 solid 1px;font-size:18px;color:#333}
+.projectInfoBox .infoBox .headingBox span{padding:15px;margin:0 30px;display:inline-block;border-bottom:#ee2f37 solid 4px}
+.projectInfoBox .infoBox p{font-size:16px;color:#666}
+.projectInfoBox .infoBox p a{font-size:16px;color:#0094da;display:inline-block}
+.projectInfoBox .infoBox map{width:750px;height:400px;display:block}
+.projectInfoBox .wowFectorsBox{display:block;width:750px;overflow:hidden}
+.projectInfoBox .wowFectorsBox li{padding-left:15px;display:block;width:50%;float:left;font-size:16px;color:#333;position:relative;line-height:30px}
+.projectInfoBox .wowFectorsBox li::after{content:'';font-size:7px;color:#ccc;font-family:'FontAwesome';position:absolute;top:2px;left:0}
+.similerProjetctsBox{display:block}
+.similerProjetctsBox .sliderBox{margin:0 -15px}
+.similerProjetctsBox .item{padding:0 15px}
+.similerProjetctsBox .item .smallTile{background:#fff;border-radius:3px;overflow:hidden}
+.similerProjetctsBox .item .smallTile .detailsBox{padding:20px 20px 0;display:block}
+.similerProjetctsBox .item .smallTile .detailsBox h4{padding-bottom:5px;margin:0;font-size:20px;color:#262626;display:block;text-align:center}
+.similerProjetctsBox .item .smallTile .detailsBox .list{padding:10px 0 0;display:block;overflow:hidden;position:relative}
+.similerProjetctsBox .item .smallTile .detailsBox .list::after{content:'';position:absolute;top:22px;left:0;display:block;width:100%;height:1px;border-top:#d8d8d8 dotted 2px;font-size:50px;letter-spacing:20px}
+.similerProjetctsBox .item .smallTile .detailsBox .list span{padding-right:5px;display:block;float:left;background:#fff;font-size:16px;position:relative;z-index:1;color:#666}
+.similerProjetctsBox .item .smallTile .detailsBox .list strong{padding-left:5px;display:block;float:right;background:#fff;font-weight:400;font-size:16px;position:relative;z-index:1;color:#333}
+.similerProjetctsBox .item .smallTile .detailsBox .list strong.red{color:#ee2f37}
+.similerProjetctsBox .item .smallTile .detailsBox .btn{margin:25px 0;display:block;width:100%;border:#ee2f37 solid 1px;color:#ee2f37;line-height:30px;font-size:14px;text-transform:uppercase}
+.similerProjetctsBox .item .smallTile .detailsBox .btn:hover{background:#ee2f37;color:#fff}
+.similerProjetctsBox .sliderBox .owl-controls{padding:20px 30px 50px;margin:0;height:100%;width:100%}
+.similerProjetctsBox .sliderBox .owl-controls .owl-prev{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px;opacity:1}
+.similerProjetctsBox .sliderBox .owl-controls .owl-next{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px;opacity:1}
+.similerProjetctsBox .sliderBox .owl-controls .owl-prev:hover,.similerProjetctsBox .sliderBox .owl-controls .owl-next:hover{background:#ee2f37;color:#fff;border:#ee2f37 solid 1px}
+.formBox{display:block;background:#fff;position:absolute;right:0;top:0;width:320px;border-radius:3px}
+.formBox h4{padding:20px 15px;margin:0;font-size:18px;color:#ee2f37}
+.formBox h4 span{font-size:15px;color:#333;display:block}
+.formBox .btnBox{padding:10px;display:block}
+.formBox .btnBox .btn{width:100%;line-height:38px;border:none;background:#ee2f37;text-transform:uppercase;font-size:16px}
+.detailSection .Unitplan{display:block}
+.detailSection .bhkOption{margin:15px 0;background:#fafafa;border:#c0c5cb solid 1px;border-radius:5px;overflow:hidden}
+.detailSection .bhkOption ul{display:block;text-align:center}
+.detailSection .bhkOption ul li{margin:0 1%;width:10%;display:inline-block;text-align:center;line-height:40px;cursor:pointer;color:#3d4d65;font-size:16px}
+.detailSection .bhkOption ul li.active{color:#0082d5;border-bottom:#0082d5 solid 2px;cursor:default}
+.detailSection .bhkoptionMobile{margin-bottom:20px;display:none}
+.detailSection .bhkoptionMobile .btn{padding:8px;width:100%;border:#787878 solid 1px}
+.detailSection .bhkoptionMobile .btn span{float:left}
+.detailSection .bhkoptionMobile .btn em{padding:10px 10px 0 0;float:right;color:#787878}
+.detailSection .bhkoptionMobile .dropdown-menu{width:100%}
+.detailSection .bhkDetails{display:block;white-space:nowrap;overflow-x:scroll;padding-bottom:15px}
+.detailSection .bhkDetails::-moz-scrollbar{width:8px;height:8px;background-color:rgba(255,255,255,0.1);position:absolute;z-index:10000;right:0}
+.detailSection .bhkDetails::-moz-scrollbar-thumb{background-color:#BCBCBC}
+.detailSection .bhkDetails::-webkit-scrollbar{width:8px;height:8px;background-color:rgba(255,255,255,0.1);position:absolute;z-index:10000}
+.detailSection .bhkDetails::-webkit-scrollbar-thumb{background-color:#BCBCBC;border-radius:5px}
+.detailSection .bhkDetails .bhk-option-slider{margin-left:20px;display:inline-block;position:relative;height:115px;border:1px solid #ebebeb;background-color:#fbfbfb;border-radius:3px}
+.detailSection .bhkDetails .bhk-option-slider:hover ul li span{color:#0082d5;text-decoration:underline;overflow:scroll}
+.detailSection .bhkDetails .bhk-option-slider:first-child{margin-left:0}
+.detailSection .bhkDetails .bhk-option-slider .boxhover:hover{text-decoration:none}
+.detailSection .bhkDetails .bhk-option-slider:hover{border:2px solid #0089d6}
+.detailSection .bhkDetails .bhk-option-slider:hover:before{content:'';position:absolute;left:0;top:0;border-top:35px solid #0089d6;border-right:35px solid transparent;z-index:999}
+.detailSection .bhkDetails .bhk-option-slider.active:before{content:'';position:absolute;left:0;top:0;border-top:35px solid #0089d6;border-right:35px solid transparent;z-index:999}
+.detailSection .bhkDetails .bhk-option-slider:hover:after{content:'';font-family:FontAwesome;position:absolute;left:3px;top:2px;color:#fff;z-index:999;font-size:14px}
+.detailSection .bhkDetails .bhk-option-slider.active:before{content:'';position:absolute;left:0;top:0;border-top:35px solid #0094da;border-right:35px solid transparent;z-index:999}
+.detailSection .bhkDetails .bhk-option-slider.active:after{content:'';font-family:FontAwesome;position:absolute;left:3px;top:2px;color:#fff;z-index:999;font-size:14px}
+.detailSection .bhkDetails .bhk-option-slider.active{border:1px solid #0094da}
+.detailSection .bhkDetails .bhk-option-slider .bhk-opn-select{padding:15px 15px 15px 25px}
+.detailSection .bhkDetails .bhk-option-slider .favratunit{display:inline-block;position:absolute;right:10px;top:10px}
+.detailSection .bhkDetails .bhk-option-slider .favratunit em{color:#cdcdcd;font-size:25px;cursor:pointer}
+.detailSection .bhkDetails .bhk-option-slider .favratunit em:hover{color:#ec2e37}
+.detailSection .bhkDetails .bhk-option-slider .favratunit em.active{color:#ec2e37}
+.detailSection .bhkDetails .bhk-option-slider .favratunit.active em{color:#ec2e37;font-size:14px}
+.detailSection .bhkDetails .bhk-option-slider ul{padding:0;margin:0;list-style:none}
+.detailSection .bhkDetails .bhk-option-slider ul li:nth-child(1){font-size:16px;color:#262626;font-weight:600;text-transform:uppercase;margin-top:5px}
+.detailSection .bhkDetails .bhk-option-slider ul li:nth-child(2){font-size:18px;color:#ec2e37;font-weight:600}
+.detailSection .bhkDetails .bhk-option-slider ul li:nth-child(3){font-size:16px;color:#262626;margin-bottom:15px}
+.detailSection .bhkDetails .bhk-option-slider ul li:nth-child(4){font-size:16px;color:#262626;margin-bottom:0}
+@media screen and (max-width: 1366px) {
+.customBox{padding:0 15px}
+.customBox .customContainer{width:100%}
+}
+@media screen and (max-width:1024px) {
+.productDetailBox{padding-left:370px}
+.productDetailBox .productGalleryBox{width:350px}
+.productDetailBox .productGalleryBox .leftBox{width:60px}
+.productDetailBox .productGalleryBox .rightBox{width:275px}
+.productDetailBox .detailSection .amenityBox ul li label{font-size:12px}
+.productDetailBox .detailSection .amenityBox ul li span{font-size:12px}
+.projectInfoBox .infoBox map{width:100%;height:auto}
+.productDetailBox .productGalleryBox .rightBox ul li .btn{font-size:12px}
+}
+@media screen and (max-width:768px) {
+.productDetailBox{padding:20px 15px 40px}
+.productDetailBox .productGalleryBox{padding-bottom:30px;margin:0 auto;position:inherit;left:inherit;top:inherit;height:auto;overflow:hidden}
+.projectInfoBox{padding:0}
+.formBox{margin-bottom:20px;position:inherit;right:inherit;top:inherit;width:100%}
+}
+@media screen and (max-width:480px) {
+.projectInfoBox .infoBox p{text-align:justify}
+.detailSection .bhkOption ul li{width:50px}
+.productDetailBox .detailSection{padding:0}
+.productDetailBox .detailSection h1,.productDetailBox .detailSection .city,.productDetailBox .detailSection .priceBox span{text-align:center}
+.keyParametersBoxx .sliderBox{height:125px}
+.keyParametersBoxx .sliderBox .owl-controls{padding-top:40px}
+.productDetailBox .detailSection .amenityBox ul li{width:100%}
+.productDetailBox .detailSection .amenityBox ul li label{font-size:16px}
+.productDetailBox .detailSection .amenityBox ul li span{font-size:16px}
+.projectInfoBox .infoBox{padding:30px 15px}
+}
+@media screen and (max-width:380px) {
+.productDetailBox .productGalleryBox{width:100%}
+.productDetailBox .productGalleryBox .leftBox{width:15%}
+.productDetailBox .productGalleryBox .rightBox{width:83%}
+}
+@media screen and (max-width:320px) {
+.productDetailBox .productGalleryBox .rightBox ul li .btn{font-size:9px}
+}

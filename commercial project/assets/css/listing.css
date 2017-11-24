@@ -1,0 +1,111 @@
+.myProfileBox{margin:15px;display:block;}
+.myProfileBox .essentialinfoBox{background:#fff;display:block;box-shadow:0 2px 2px 0 rgba(0,0,0,0.11);position:relative;transition:.5s;overflow:hidden;margin-bottom:30px}
+.myProfileBox .essentialinfoBox .strip{border-bottom:1px solid #e2e9f0;background:#fff;padding:15px}
+.myProfileBox .essentialinfoBox .strip p{color:#333;font-size:18px;padding:0;margin:0;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .essentialinfoBox .profileData{padding:25px 25px 25px 270px;position: relative; display:block;}
+.myProfileBox .essentialinfoBox .profileData .userPic{display:block;margin-top:33px; text-align: center;}
+.myProfileBox .essentialinfoBox .profileData .userPic figure{width:96px;height:96px;border-radius:50%;border:3px solid #d8d8d8;overflow:hidden;text-align:center;margin:auto}
+.myProfileBox .essentialinfoBox .profileData .userPic .upload{display:inline-block;text-align:center;margin:auto;margin-top:15px}
+.myProfileBox .essentialinfoBox .profileData .userPic .upload a{text-decoration:none}
+.myProfileBox .essentialinfoBox .profileData .userPic .upload em{color:#fff;font-size:14px;margin-right:5px}
+.myProfileBox .essentialinfoBox .profileData .userPic .upload span{font-size:14px;color:#fff}
+.myProfileBox .essentialinfoBox .profileData .userPic.squarePicBox{margin-top:0;display:block;float:left;    position: absolute;
+    left: 30px;
+    top: 30px;}
+.myProfileBox .essentialinfoBox .profileData .userPic.squarePicBox figure{width:auto;height:auto;border-radius:0;border:0; position: relative;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox{position:absolute; top: 0px; left: 0px; width:100%; background-color: rgba(0,0,0,.8); height: 0px; overflow: hidden; transition: .3s;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox label{ margin-top: 50px;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox ul { padding: 15px 0; display:block; text-align: center;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox ul li { display:inline-block; }
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox ul li a { padding: 8px; background:#fff; color:#0098da; display:inline-block; border-radius: 50%; width: 40px; height: 40px; text-align: center; font-size: 18px;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox ul li a .fa-check{color:#86cc00;}
+.myProfileBox .essentialinfoBox .profileData .userPic .overLayBox ul li a .fa-close{color:#eb323e;}
+.myProfileBox .essentialinfoBox .profileData .userPic:hover .overLayBox{ height: 100%; transition: .3s;}
+.myProfileBox .essentialinfoBox .profileData .fields{display:block;margin-top:33px}
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox{margin-bottom:15px;display:flex}
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox em{color:#666;display:inline-block;font-size:18px;margin-right:10px}
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox p{display:inline-block;padding:0;margin:0;color:#333;font-size:16px;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox p span{display:block;font-size:16px;color:#666;font-family:'SourceSansPro-Regular'}
+
+.myProfileBox .accountInfo{background:#fff;display:block;box-shadow:0 2px 2px 0 rgba(0,0,0,0.11);position:relative;transition:.5s;overflow:hidden;margin-bottom:30px}
+.myProfileBox .accountInfo .strip{border-bottom:1px solid #e2e9f0;background:#fff;padding:15px}
+.myProfileBox .accountInfo .strip p{color:#333;font-size:18px;padding:0;margin:0;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .accountInfo .accountData{display:block;padding:15px 30px}
+.myProfileBox .accountInfo .accountData .fields{display:block;margin-top:33px}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox{margin-bottom:15px;display:flex}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox em{color:#666;display:inline-block;font-size:18px;margin-right:10px}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox p{display:inline-block;padding:0;margin:0;color:#333;font-size:16px;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox p span{display:block;font-size:16px;color:#666;font-family:'SourceSansPro-Regular'}
+.myProfileBox .accountInfo .accountData .raisService{display:inline-block;width:100%;margin:15px 0}
+.myProfileBox .accountInfo .accountData .raisService ul{padding:0;margin:0;list-style:none;float:right}
+.myProfileBox .accountInfo .accountData .raisService ul li{float:left;margin-right:15px;display:block;font-size:16px;color:#666;font-family:'SourceSansPro-Regular'}
+.myProfileBox .accountInfo .accountData .raisService ul li p{display:inline-block;padding:0;margin:0;color:#333;font-size:16px;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .accountInfo .accountData .raisService ul{padding:0;margin:0;list-style:none;float:right}
+.myProfileBox .accountInfo .accountData .raisService ul li a em{margin-right:10px}
+.myProfileBox .accountInfo .accountData .raisService ul li a.btnn{background:#86cc00;border-radius:30px;padding:10px 30px;color:#fff;text-decoration:none}
+.myProfileBox .otherInfo{background:#fff;display:block;box-shadow:0 2px 2px 0 rgba(0,0,0,0.11);position:relative;transition:.5s;overflow:hidden;margin-bottom:30px}
+.myProfileBox .otherInfo .strip{border-bottom:1px solid #e2e9f0;background:#fff;padding:15px}
+.myProfileBox .otherInfo .strip p{color:#333;font-size:18px;padding:0;margin:0;font-family:'SourceSansPro-Semibold'}
+.myProfileBox .otherInfo .formData{display:block;padding:25px}
+.myProfileBox label{font-size:14px;color:#333;font-family:SourceSansPro-Regular;font-weight:400;display:inline-flex}
+.myProfileBox label .checkbox{padding-left:30px;margin-top:0}
+.myProfileBox label em{font-size:18px;color:#8a8a8a;margin-right:10px}
+.myProfileBox textarea{min-height:100px}
+.myProfileBox .form-control{height:42px;border:1px solid #cdcdcd;border-radius:3px;box-shadow:none}
+.myProfileBox .input-group-addon{background:none}
+.form-group .form-control-file{margin-top:10px!important;display:block}
+.myProfileBox label .checkBoxx{display:inline-block;margin-left:6px;margin-right:10px}
+.myProfileBox label .checkBoxx span{font-size:12px;float:left;color:#333}
+.myProfileBox .otherInfo .formData .diverBorder{border-bottom:1px solid #e2e9f0;width:100%;height:1px;margin:30px 0}
+.myProfileBox .otherInfo .btnArea{display:block;padding:0 30px}
+.myProfileBox .otherInfo .btnArea a.saveBtn{background:#86cc00;border-radius:30px;text-decoration:none;font-size:16px;font-family:'SourceSansPro-Semibold';float:right;padding:10px 30px;text-align:center;color:#fff;margin-bottom:15px}
+
+
+@media screen and (max-width:1024px) {
+	.myProfileBox .essentialinfoBox .profileData{ padding: 15px 15px 15px 250px;}
+	.myProfileBox .essentialinfoBox .profileData .userPic.squarePicBox{ left: 15px; top: 15px;}
+}
+
+
+@media screen and (max-width:768px) {
+.myProfileBox label{font-size:12px}
+.myProfileBox .essentialinfoBox .profileData .raisService ul li{font-size:15px}
+}
+@media screen and (max-width:640px) {
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox{display:inherit;text-align:center}
+.myProfileBox .essentialinfoBox .profileData .fields .fieldsBox em{margin-right:0;display:block}
+.myProfileBox label{font-size:14px}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox{display:inherit;text-align:center}
+.myProfileBox .accountInfo .accountData .fields .fieldsBox em{margin-right:0;display:block}
+.myProfileBox label{font-size:14px}
+.myProfileBox .essentialinfoBox .profileData .raisService ul{float:inherit}
+.myProfileBox .essentialinfoBox .profileData .raisService ul li{float:inherit;margin-bottom:15px;text-align:center}
+.myProfileBox .accountInfo .accountData .raisService ul{float:inherit}
+.myProfileBox .accountInfo .accountData .raisService ul li{float:inherit;margin-bottom:15px;text-align:center}
+}
+@media screen and (max-width:480px) {
+.myProfileBox .essentialinfoBox .profileData .userPic.squarePicBox{float:none}
+.myProfileBox .otherInfo .formData, .myProfileBox .essentialinfoBox .profileData { padding:15px;}
+.myProfileBox .otherInfo .btnArea{padding:0 15px}
+	
+	.myProfileBox .essentialinfoBox .profileData .userPic.squarePicBox{position:inherit; top:inherit; left: inherit;}
+	
+.myProfileBox .essentialinfoBox .profileData .userPic{margin:30px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

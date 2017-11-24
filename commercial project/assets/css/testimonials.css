@@ -1,0 +1,167 @@
+::-webkit-scrollbar {
+width:8px;
+height:8px;
+background-color:rgba(255,255,255,0.1);
+position:absolute;
+z-index:10000
+}
+::-webkit-scrollbar-thumb {
+background-color:#ccc
+}
+::-moz-scrollbar {
+width:8px;
+height:8px;
+background-color:rgba(255,255,255,0.1);
+position:absolute;
+z-index:10000;
+right:0
+}
+::-moz-scrollbar-thumb {
+background-color:#ccc
+}
+header { border-bottom: #816f8d solid 1px; display: block; height: 60px; position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; background: #1f2a3b; }
+header .logoBox { padding: 7px 0; float: left }
+nav { display: block; float: right }
+nav ul { display: block }
+nav ul li { display: inline-block; border-left: #816f8d solid 1px; float: left }
+nav ul li a { padding: 0 25px; display: block; color: #fff; font-size: 16px; line-height: 60px }
+nav ul li a:hover { background: #fff; color: #554069; text-decoration: none }
+.innerHeader { display: block; background: #1f2a3b }
+
+.testimonialsBox { margin-top: 60px; display: block; min-height: 640px; background: url(../images/testimonial-map.jpg) no-repeat center top; background-size: cover; position: relative; }
+
+.testimonialsBox .pointer1{ position: absolute; width: 34px; height: 37px; top: 53%; left: 35%;}
+.testimonialsBox .pointer2{ position: absolute; width: 34px; height: 37px; top: 53%; left: 36%;}
+.testimonialsBox .pointer3{ position: absolute; width: 34px; height: 37px; top: 53%; left: 37%;}
+.testimonialsBox .pointer4{ position: absolute; width: 34px; height: 37px; top: 53%; left: 38%;}
+.testimonialsBox .pointer5{ position: absolute; width: 34px; height: 37px; top: 40%; left: 33%;}
+
+.testimonialsBox .agentTile {position: absolute; width: 507px; min-height: 165px; background: url(../images/tile-coma.png) no-repeat right top #fff; box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.18); top:26%; left: 0; right: 0; margin: auto; padding: 15px 20px; border-radius: 3px;}
+.testimonialsBox .agentTile::after {top: 100%;left: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-color: rgba(255, 255, 255, 0);border-top-color: #ffffff;border-width: 15px;margin-left: -10px;}
+.testimonialsBox .agentTile::before { content: ""; position: absolute; width: 34px; height: 37px; bottom: -55px; left: 48%; background: url(../images/pointer-icon.png) no-repeat;}
+.testimonialsBox .agentTile .pofilePic { display: block;}
+.testimonialsBox .agentTile .agentName { display: block; color: #333333; font-size: 18px; font-family: 'SourceSansPro-Semibold';}
+.testimonialsBox .agentTile .builder { display: block;}
+.testimonialsBox .agentTile .builder figure { float: left; margin-right: 10px;}
+.testimonialsBox .agentTile .builder span { font-size: 15px; color: #666666;}
+.testimonialsBox .agentTile .textBox { display: inline-block; width: 100%; color: #333333; font-size: 16px; font-style: italic; margin-top: 15px;}
+.testimonialsBox .agentTile .textBox a{color: #0094da; font-size: 16px; font-style: normal; text-decoration: none; outline: none;}
+
+.testimonialsBox .agentTile .owl-controls .owl-prev { padding: 8px; font-family: 'icomoon'; font-size: 16px; color: #ee2f37; background: #fff; border: #ebebeb solid 1px; border-radius: 50%; width: 38px; height: 38px; opacity: 1; position: absolute; top: 35%; left: -5% }
+
+.testimonialsBox .agentTile .owl-controls .owl-next { padding: 8px; font-family: 'icomoon'; font-size: 16px; color: #ee2f37; background: #fff; border: #ebebeb solid 1px; border-radius: 50%; width: 38px; height: 38px; opacity: 1; position: absolute; top: 35%; right: -5% }
+
+.testimonialsBox .agentTile .owl-controls .owl-prev:hover, .similerProjetctsBox .sliderBox .owl-controls .owl-next:hover { background: #ee2f37; color: #fff; border: #ee2f37 solid 1px }
+.testimonialsBox .agentTile .owl-controls .owl-next:hover, .similerProjetctsBox .sliderBox .owl-controls .owl-next:hover { background: #ee2f37; color: #fff; border: #ee2f37 solid 1px }
+
+footer { padding-top: 20px; background: #1f2a3b; font-size: 13px; color: #fff; border-bottom: #fff solid 5px }
+footer .aboutHeading { margin: 0 0 10px; font-size: 24px }
+footer .aboutHeading em { display: none }
+footer a { color: #0098da }
+footer a:hover { text-decoration: none }
+footer p { color: #c5cad1 }
+footer .smallFooter { padding: 15px 0; border-top: #515f75 solid 1px; overflow: hidden }
+footer .aboutBox { margin-bottom: 15px; color: #dae2ee; font-size: 14px; line-height: 22px; text-align: justify; margin-right: 20px }
+footer .footer-logo { margin-bottom: 15px; display: block; height: 45px }
+footer .contactBox { display: block }
+footer .contactBox em { padding: 10px; position: absolute; left: 0; top: 0; border: #0098da solid 1px; font-size: 20px; color: #0098da; border-radius: 50% }
+footer .contactBox h3.mart30 { margin-top: 25px }
+footer .contactBox h3, footer .contactBox p { display: block }
+footer .contactBox p { padding-left: 55px; margin: 20px 0 0; color: #dae2ee; font-size: 15px; position: relative }
+footer .contactBox form .form-control { background: #374355; border: #374355 solid 1px; border-right: none; border-radius: 3px 0 0 3px; color: #fff; font-size: 15px; line-height: 28px; height: inherit }
+footer .contactBox form .btn { background: #5f99ff; border: #5f99ff solid 1px; border-left: none; border-radius: 0 3px 3px 0; outline: none; color: #fff; font-size: 15px; line-height: 28px }
+footer ul { display: block }
+footer ul li { padding: 0 15px; display: inline-block }
+footer ul li a { font-size: 14px; color: #dae2ee; text-decoration: none }
+footer ul li a:hover { color: #5f99ff }
+footer .copyRight { font-size: 14px; color: #8493a8; text-align: right }
+footer .networkSites { overflow: hidden; display: block }
+footer .networkSites h3 { display: none }
+footer .networkSites .heading { padding: 0 15px 10px }
+footer .networkSites ul { padding: 10px 0; display: block; text-align: center; border-top: #535b67 solid 1px; overflow: hidden }
+footer .networkSites ul li { display: block; border-left: #2e3948 solid 1px; width: 20%; float: left; line-height: 20px }
+footer .networkSites ul li:first-child { border: none; font-size: 18px; text-align: left }
+footer .networkSites ul li em { padding-left: 10px }
+footer .networkSites ul li a { color: #0098da }
+footer .networkSites ul li a:hover { color: #fff }
+
+@media (max-width:1024px) {
+footer ul li a { font-size: 11px }
+}
+
+@media (max-width:768px) {
+header { border-bottom: #816f8d solid 1px; display: block; height: 60px; position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; background: url(../images/header-BG.jpg)repeat-x }
+header .logoBox img { width: 100% }
+.navigationBox { top: 101px }
+.navigationBox .socialIcon ul li { margin-right: 5px }
+nav { padding: 16px 0 }
+nav ul { display: none }
+nav .btn { margin-left: 2px }
+nav .contactBtn { padding: 10px 20px }
+#nav-toggle { margin-left: 5px }
+nav .favouriteBtn span { right: 0 }
+header .topSearchBox { display: none }
+header .header-main .navigationBox ul li { display: none }
+header .header-main .navigationBox ul li:last-child { display: inline-block }
+header .navigation .nav-inner { width: auto }
+header .navigation .nav-inner .infoDetails { position: static; padding-top: 15px }
+header .navigation { width: 100%; background-color: rgba(0,0,0,0.9) }
+header .navigation.active { height: auto; padding-bottom: 25px }
+footer .networkSites ul li { display: inline-block; float: none; width: inherit }
+footer .networkSites ul li:first-child { font-size: 15px; display: block; text-align: center }
+footer ul { text-align: center }
+footer .copyRight { margin-top: 10px; text-align: center }
+}
+
+@media screen and (max-width:640px) {
+footer h3 { display: block; text-align: center }
+footer .aboutBox { text-align: justify }
+footer .footer-logo { padding: 10px 0; margin: 0; display: block; text-align: center; height: 60px }
+footer .footer-logo img { display: inline-block }
+footer .aboutHeading { text-align: center }
+footer .aboutHeading em { display: inline-block }
+footer .footer-logo, footer .aboutBox { display: none }
+footer .contactBox { margin-bottom: 0 }
+footer .contactBox p { margin-bottom: 25px; width: 50%; float: left }
+footer .contactBoxHide { display: none }
+footer .contactBox h3 em { padding: 5px 2px; border: medium none; color: #fff; display: inline-block; font-size: 22px; position: inherit }
+footer .networkSites h3 { display: block }
+footer .networkSites .heading { text-align: center }
+footer .networkSites ul li { width: 100%; border: none; line-height: 25px }
+footer .networkSites ul li:first-child { display: none }
+footer .networkSites ul { display: none }
+footer .aboutHeading, footer .contactBox h3.tBg, footer .networkSites h3 { padding: 0; margin: 0; font-size: 20px; border-bottom: 1px solid #515f75; line-height: 50px; cursor: pointer; background-color: rgba(255,255,255,.02) }
+footer .networkSites h3 { margin: 0 15px; border: none }
+footer .networkSites ul li a { color: #0098da; display: block; font-size: 18px; line-height: 45px }
+footer ul li a { display: block; font-size: 13px; line-height: 45px }
+footer .contactBox h3, footer .contactBox p { padding-top: 20px }
+}
+
+@media screen and (max-width:480px) {
+.testimonialsBox .agentTile { width: 370px;}	
+.testimonialsBox .agentTile .pofilePic { display: block; text-align: center; margin: auto;}
+.testimonialsBox .agentTile .agentName { display:block; text-align: center; margin: auto;}
+.testimonialsBox .agentTile .builder { display: block; text-align: center; margin: auto;}
+.testimonialsBox .agentTile .builder figure { float: none; display: inline-block; text-align: center;}
+
+	
+footer .contactBox p { padding: 45px 0 0; text-align: center }
+footer .contactBox p em { margin-left: -20px; left: 50% }
+footer .aboutBox, footer ul li a { font-size: 15px }
+footer .aboutBox { margin: 0 }
+footer form { margin-bottom: 20px }
+}
+@media screen and (max-width:375px) {
+	.testimonialsBox .agentTile { width: 340px;} 
+}
+
+@media screen and (max-width:360px) {
+	.testimonialsBox .agentTile { width: 330px;} 
+footer .contactBox form .form-control, footer .contactBox form .btn { line-height: inherit }
+footer .copyRight { font-size: 12px }
+footer .contactBox p { margin-top: 0; width: 100% }
+}
+
+@media screen and (max-width:320px) {
+.testimonialsBox .agentTile { width: 280px;} 
+}

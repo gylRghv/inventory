@@ -1,0 +1,61 @@
+.innerHeader{display:block;background:#1f2a3b}
+.cityBannerBox{margin-top:60px;display:block;min-height:515px;background:url(../images/city-bg.jpg) fixed no-repeat center top;background-size:cover}
+.cityBannerBox h1{padding:20px 0;font-size:55px;color:#fff;display:block;text-align:center}
+.opportunitiesBox{padding:30px 0 55px;display:block;background:#fff}
+.opportunitiesBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+
+.opportunitiesBox .opportunitiesSlider{ display:block}
+.opportunitiesBox .opportunitiesSlider ul{ display:block}
+.opportunitiesBox .opportunitiesSlider ul li{ display:block;-webkit-box-shadow: 0 8px 45px 0 rgba(0,0,0,0.22);box-shadow: 0 8px 45px 0 rgba(0,0,0,0.22); border-radius:3px;}
+.opportunitiesBox .opportunitiesSlider ul li figure{ display:block}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox{ padding:20px; display:block}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox h4 { font-size:20px; color:#262626; display:block; text-align:center;}
+
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox .list{ padding:10px 0 0; display:block; overflow:hidden;}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox .list span{ padding-right:5px; display:block; float:left; background:#fff;}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox .list strong{ padding-left:5px; display:block; float:right; background:#fff; font-weight:normal; font-size:16px;font-family:'SourceSansPro-Bold';}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox .btn{ margin-top:25px; display:block; width:100%; border:#ee2f37 solid 1px; color:#ee2f37; line-height:30px; font-size:14px; text-transform:uppercase;}
+.opportunitiesBox .opportunitiesSlider ul li .detailsBox .btn:hover{background:#ee2f37; color:#fff;}
+
+
+.cityMicromarketBox{padding:30px 0 55px;display:block;background:#f0f4f8}
+.cityMicromarketBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+.cityMicromarketBox .microTilesBox{display:block}
+.cityMicromarketBox .microTilesBox .microTile{margin-bottom:20px;display:block;background:#fff;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.11);box-shadow:0 2px 5px 0 rgba(0,0,0,0.11);border-radius:3px}
+.cityMicromarketBox .microTilesBox .microTile .locationBox{padding:12px 15px;display:block;font-size:18px;color:#262626;border-bottom:#e5e5e5 solid 1px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox{display:block;overflow:hidden}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid{display:block;border-left:#e5e5e5 solid 1px;float:left;min-height:100px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box{padding:15px 50px;display:block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box .heading{font-size:16px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1{border-left:none;width:28%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .heading{color:#929292;text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .avgPriceBox{display:block;font-size:28px;color:#464646;font-family:'SourceSansPro-Bold';text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .avgPriceBox span{font-size:14px;font-family:'SourceSansPro-Light'}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2{width:32%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .heading{color:#59b72d;text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .appreciationBox{display:block;font-size:28px;color:#59b72d;font-family:'SourceSansPro-Bold';text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .appreciationBox em{font-size:20px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3{width:40%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 .heading{color:#000;text-align:left}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul{padding-top:10px;display:block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li{margin-right:5px;display:inline-block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li em{display:block;font-size:28px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(1) em{color:#d72449}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(2) em{color:#ee772e}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(3) em{color:#ffc13f}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(4) em{color:#a5c324}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(5) em{color:#4eca19}
+.cityMicromarketBox .micromarket-map{background:url(https://d2e9thu7mhurn3.cloudfront.net/assets/images/mp-bg.jpg) left top #dfdfdf;overflow:hidden;text-align:left;height:662px}
+.cityAboutBox{padding:30px 0 55px;display:block;background:#fff}
+.cityAboutBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+.cityAboutBox p{color:#666;font-size:18px}
+.connectivityBox{padding:30px 0 55px;display:block;background:#f0f4f8}
+.connectivityBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+.connectivityBox h4{padding:20px 0 10px;font-size:18px;color:#333;display:block;font-weight:400;font-family:'SourceSansPro-Bold'}
+.connectivityBox p{color:#666;font-size:18px}
+.connectivityBox ul{display:block}
+.connectivityBox ul li{display:block;color:#666;font-size:18px;line-height:38px}
+.connectivityBox a{display:inline-block;color:#0094da;font-size:18px}
+.trendBox{padding:30px 0 55px;display:block;background:#fff}
+.trendBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+

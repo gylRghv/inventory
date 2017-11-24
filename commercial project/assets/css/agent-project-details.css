@@ -1,0 +1,158 @@
+.whiteBox{margin-top:30px;background:#fff;border-radius:3px;overflow:hidden}
+.whiteBox.highLight{box-shadow:0 0 15.54px 5.46px rgba(0,0,0,0.06)}
+.whiteBox .headingBox{border-bottom:#e5e5e5 solid 1px;font-size:18px;color:#333}
+.whiteBox .headingBox span{padding:15px 0;margin:0 25px;display:inline-block;border-bottom:#ee2f37 solid 4px}
+.agent-banner{width:100%;min-height:478px;float:left;background:url(../images/agent-banner.jpg);background-size:cover!important;position:relative;z-index:2;padding-top:60px}
+.agent-banner:after{content:'';position:absolute;width:100%;height:60%;left:0;bottom:0;background:-moz-linear-gradient(top,rgba(153,153,153,0) 0%,rgba(34,34,34,1) 78%,rgba(0,0,0,1) 100%);background:-webkit-linear-gradient(top,rgba(153,153,153,0) 0%,rgba(34,34,34,1) 78%,rgba(0,0,0,1) 100%);background:linear-gradient(to bottom,rgba(153,153,153,0) 0%,rgba(34,34,34,1) 78%,rgba(0,0,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00999999',endColorstr='#000000',GradientType=0);z-index:-1}
+.agent-banner .headerSlider{padding:10px 30px;margin-top:25px;background-color:rgba(1,1,1,.6);position:relative;border-radius:5px}
+.agent-banner .headerSlider ul li{margin:0 4px;border-radius:3px;overflow:hidden;cursor:hand}
+.agent-banner .headerSlider ul li img {height:55px;}
+.agent-banner .headerSlider .owl-nav{padding:0;margin:0;height:100%;width:100%;text-align:center}
+.agent-banner .headerSlider .owl-nav .owl-prev{padding:4px;font-family:'icomoon';font-size:22px;color:#fff;border-radius:50%;width:40px;height:40px;opacity:1;position:absolute;top:5px;left:-33px;cursor:pointer}
+.agent-banner .headerSlider .owl-nav .owl-next{padding:4px;font-family:'icomoon';font-size:22px;color:#fff;border-radius:50%;width:40px;height:40px;opacity:1;position:absolute;top:5px;right:-33px;cursor:pointer}
+.agent-banner .headerSlider .banner-social{display:block;width:100%;float:left}
+.agent-banner .headerSlider .banner-social ul{display:block;text-align:right}
+.agent-banner .headerSlider .banner-social ul li{display:inline-block}
+.agent-banner .headerSlider .banner-social ul li a{width:35px;height:35px;border-radius:50%;line-height:35px;color:#fff;text-align:center}
+.agent-banner .headerSlider .banner-social ul li a.facebook{background:#4b6ea8}
+.agent-banner .headerSlider .banner-social ul li a.facebook:hover{background:#375993}
+.agent-banner .headerSlider .banner-social ul li a.twitter{background:#6fb9e4}
+.agent-banner .headerSlider .banner-social ul li a.twitter:hover{background:#62a9d2}
+.agent-banner .headerSlider .banner-social ul li a.google{background:#e66249}
+.agent-banner .headerSlider .banner-social ul li a.google:hover{background:#d6533b}
+.container-box{width:100%;float:left;position:relative;min-height:420px}
+.agent-banner .container-box .agent-main-heading{position:absolute;bottom:0;display:block;width:100%}
+.agent-banner .container-box .agent-main-heading span{color:#ffa313;padding:5px 15px;border-radius:3px;border:1px solid #ffa313}
+.agent-banner .container-box .agent-main-heading h1{color:#fff;font-size:28px;font-weight:700;padding:15px 0 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.agent-banner .container-box .agent-main-heading p{color:#fff;font-size:18px}
+.agent-banner .container-box .agent-main-heading h2{font-size:23px;text-align:right;color:#fff;font-weight:400;margin-top:35px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.agent-banner .container-box .agent-main-heading h2 em{margin-right:5px;background:#fff;color:#EC0003;font-size:22px;width:35px;height:35px;text-align:center;line-height:35px;display:inline-block;border-radius:50%}
+.agent-second{width:100%;float:left;background:#f6f8f9}
+.agent-second .projectInfoBox{padding-right:0;display:block;position:relative;margin-top:30px;width:100%;float:left}
+.agent-second .projectInfoBox h4{margin:25px 0 10px;font-size:22px;color:#333}
+.agent-second .projectInfoBox .detailSection .city{display:block;font-size:16px;color:#0094da}
+.agent-second .projectInfoBox .detailSection .priceBox{font-size:24px;color:#ec2e37;padding:15px 0}
+.agent-second .projectInfoBox .detailSection .priceBox span{display:block;text-align:right}
+.agent-second .projectInfoBox .detailSection .priceBox span.perSq{font-size:16px;color:#333}
+.agentInfoBox{margin-bottom:25px}
+.agentInfoBox .infoBox{padding:0}
+.agentInfoBox .infoBox .amenityBox{padding:30px;display:block;overflow:hidden;border:none}
+.agentInfoBox .infoBox .amenityBox ul{display:block;width:100%}
+.agentInfoBox .infoBox .amenityBox ul li{padding:0 0 0 40px;margin-right:25px;float:left;position:relative}
+.agentInfoBox .infoBox .amenityBox ul li span.moon{position:absolute;top:5px;left:0;font-size:22px!important;color:#6d6d6d}
+.agentInfoBox .infoBox .amenityBox ul li span.moon span{display:inline-block;font-size:28px}
+.agentInfoBox .infoBox .amenityBox ul li label{margin:0;display:block;font-weight:400;color:#666;font-size:14px;line-height:normal}
+.agentInfoBox .infoBox .amenityBox ul li .amenityDetails{margin:0;display:block;font-weight:400;color:#333;font-size:14px}
+.agentInfoBox .priceWithSize{padding:10px 25px;display:block;background:#444;overflow:hidden}
+.agentInfoBox .priceWithSize p{margin:0;float:left}
+.agentInfoBox .priceWithSize p span{background:#ee2f37;color:#fff;padding:0 25px;border-radius:25px;font-size:22px;line-height:40px;display:inline-block}
+.agentInfoBox .priceWithSize .available-details{color:#fff;display:inline-block;font-size:18px;line-height:40px;margin-left:15px;font-weight:400}
+.agentInfoBox .priceWithSize .available-details em{padding-right:3px;font-style:normal}
+.agentInfoBox .projectInfoBox .detailSection .agent-project-img{position:relative;overflow:hidden;margin:10px -15px 0 0}
+.agentInfoBox .projectInfoBox .detailSection .agent-project-img img{width:100%}
+.agentInfoBox .projectInfoBox .detailSection .agent-project-img .mask{width:100%;height:0;position:absolute;left:0;top:0;background-color:rgba(0,0,0,0.6);z-index:10;text-align:center;transition:.3s;overflow:hidden}
+.agentInfoBox .projectInfoBox .detailSection .agent-project-img .mask em{color:#fff;font-size:22px;line-height:100px;cursor:pointer}
+.agentInfoBox .projectInfoBox .detailSection .agent-project-img:hover >.mask{height:100%;transition:.3s}
+.agentInfoBox .propertyDetailsTable{padding:15px 25px;position:relative}
+.agentInfoBox .propertyDetailsTable::after{content:'';position:absolute;left:50%;top:15px;width:1px;height:calc(100% - 30px);background:#e5e5e5}
+.agentInfoBox .propertyDetailsTable ul{margin:0;padding:0;overflow:hidden}
+.agentInfoBox .propertyDetailsTable ul li{display:block;padding:10px 0;border-bottom:1px solid #e5e5e5;font-weight:700;width:48%;float:left; color:#333;}
+.agentInfoBox .propertyDetailsTable ul li:nth-child(even){margin-left:4%}
+.agentInfoBox .propertyDetailsTable ul li span{float:right; color:#666;}
+.agentInfoBox .productDescription{padding:25px}
+.agentInfoBox .productDescription p{font-size:16px;color:#666;text-align:justify}
+.agentInfoBox map{display:block;padding:20px 28px;background:#fff;border-radius:3px;margin:0}
+.agentInfoBox .wowFectors{margin:0;display:block;padding:25px;background:#fff;border-radius:3px;width:100%;float:left}
+.agentInfoBox .wowFectors h5{padding:0 0 15px;margin:0;font-size:18px}
+.agentInfoBox .wowFectors h5.active{padding:0 0 15px;margin:20px 0 0;font-size:18px}
+.agentInfoBox .wowFectors p.amentity{margin:0;display:flex}
+.agentInfoBox .wowFectors p.amentity em{font-size:28px;display:inline-block;margin-right:10px}
+.agentInfoBox .wowFectors p.amentity em img{width:28px;height:28px;margin-top:5px;line-height:32px}
+.agentInfoBox .wowFectors p.amentity span{display:inline-block;margin-top:5px;line-height:32px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.agentInfoBox .wowFectors .wowFectorsBox{display:block;width:750px;overflow:hidden;margin-top:0}
+.agentInfoBox .wowFectors .wowFectorsBox li{padding-left:15px;display:block;width:50%;float:left;font-size:16px;color:#333;position:relative;line-height:30px}
+.agentInfoBox .wowFectors .wowFectorsBox li::after{content:'';font-size:7px;color:#ccc;font-family:'FontAwesome';position:absolute;top:2px;left:0}
+.agent-second .projectInfoBox h4{margin:25px 0 10px;font-size:22px;color:#333}
+.agentInfoBox h5{margin:0;padding:0;font-size:18px}
+.agentInfoBox .nearBuy{margin-top:-10px;width:100%;float:left}
+.agentInfoBox .nearBuy .panel{border:none}
+.agentInfoBox .nearBuy .panel.first p{color:#da4167}
+.agentInfoBox .nearBuy .panel.first .inner-details p{color:#333;font-size:13px}
+.agentInfoBox .nearBuy .panel.first .inner-details em{color:#da4167}
+.agentInfoBox .nearBuy .panel.second p{color:#fe7d26}
+.agentInfoBox .nearBuy .panel.second .inner-details p{color:#333;font-size:13px}
+.agentInfoBox .nearBuy .panel.second .inner-details em{color:#fe7d26}
+.agentInfoBox .nearBuy .panel.third p{color:#772cd0}
+.agentInfoBox .nearBuy .panel.third .inner-details p{color:#333;font-size:13px}
+.agentInfoBox .nearBuy .panel.third .inner-details em{color:#772cd0}
+.agentInfoBox .nearBuy .panel .nearHead{width:100%;float:left}
+.agentInfoBox .nearBuy .panel .nearHead p{margin:0;margin-top:15px;padding:10px 15px;border:1px solid #ddd;font-weight:700;cursor:pointer}
+.agentInfoBox .nearBuy .panel .nearHead p em{float:right;font-size:18px}
+.agentInfoBox .nearBuy .panel .nearHead p:hover{background:#f4f4f4}
+.agentInfoBox .nearBuy .panel .inner-details{border-bottom:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd;width:100%;float:left;padding:15px 0 8px;cursor:pointer}
+.agentInfoBox .nearBuy .panel .inner-details p{margin:0}
+.agentInfoBox .nearBuy .panel .inner-details p span{display:block;font-weight:700;font-size:15px}
+.agentInfoBox .nearBuy .panel .inner-details em{font-size:26px;line-height:40px}
+.agentInfoBox .clearfix h4{margin:25px 0 0;font-size:22px;color:#333}
+.agent-second .formPosition{position:sticky!important;z-index:2000!important;top:0!important;padding:0}
+.agent-second .formPosition .formBox{display:block;background:#eef3f5;border-radius:3px;box-shadow:0 0 16px 0 rgba(0,0,0,0.12);box-shadow:0 0 16px 0 rgba(0,0,0,0.2)}
+.agent-second .formPosition .formBox .userProfile{display:block;text-align:center;position:relative;top:-45px;margin-bottom:-30px}
+.agent-second .formPosition .formBox .userProfile figure{margin:auto;display:inline-block;height:80px;width:80px;border-radius:50%;overflow:hidden}
+.agent-second .formPosition .formBox .userProfile figure.company-logo{padding:15px;background:#fff}
+.agent-second .formPosition .formBox .userProfile figure img{width:100%}
+.agent-second .formPosition .formBox .userProfile p{margin:0 0 5px;padding:0}
+.agent-second .formPosition .formBox .userProfile p.name{color:#ee2f37;font-size:18px;font-weight:700}
+.agent-second .formPosition .formBox .userProfile p.email{color:#333;font-size:16px}
+.agent-second .formPosition .formBox .mdl-textfield{padding:15px 0 5px}
+.agent-second .formPosition .formBox .formBody{padding-top:20px;background:#fff}
+.agent-second .formPosition .formBox h4{padding:20px 15px;margin:0;font-size:18px!important;color:#fff;background:#0094da}
+.agent-second .formPosition .formBox h4 span{font-size:15px;color:#fff;display:block}
+.agent-second .formPosition .formBox h4 .closeBtn{display:none;float:right;position:relative;bottom:35px}
+.agent-second .formPosition .formBox form{text-align:left;display:block}
+.agent-second .formPosition .formBox label{margin:5px 0 0;width:100%;font-weight:400}
+.agent-second .formPosition .formBox label .label-text{padding:0 15px;color:#ccc;cursor:text;font-size:13px;line-height:20px;-moz-transform:translateY(-20px);-ms-transform:translateY(-20px);-webkit-transform:translateY(-24px);transform:translateY(-20px);transition:all .3s}
+.agent-second .formPosition .formBox label input,.agent-second .formPosition .formBox label select{padding:0 12px;background-color:transparent;border:0;border-bottom:1px solid #f2f2f2;color:#666;font-size:13px;outline:0;transition:all .3s;width:100%}
+.agent-second .formPosition .formBox label input{padding:0 15px}
+.agent-second .formPosition .formBox label input[type='email'].focussed + .label-text,.agent-second .formPosition .formBox label input:disabled + .label-text,.agent-second .formPosition .formBox label input:valid + .label-text,.agent-second .formPosition .formBox label select:valid + .label-text{font-size:13px;-moz-transform:translateY(-42px);-ms-transform:translateY(-42px);-webkit-transform:translateY(-42px);transform:translateY(-42px);color:#0094da}
+.agent-second .formPosition .formBox .btnBox{padding:15px;display:block}
+.agent-second .formPosition .formBox .btnBox .btn{width:100%;line-height:30px;border:none;background:#ee2f37;text-transform:uppercase;font-size:16px}
+.position-sticky{position:sticky;z-index:10;top:120px;margin:-170px 0 25px}
+.discriptionText p{font-size:16px;color:#666;text-align:justify}
+.discriptionText .properyDetailsTable .left-table{border-right:1px solid #e5e5e5;padding-right:15px;margin-top:20px}
+.discriptionText .properyDetailsTable .left-table.right{border:none}
+.discriptionText .properyDetailsTable .left-table ul{margin:0;padding:0}
+.discriptionText .properyDetailsTable .left-table ul li{display:block;padding:10px 0;border-bottom:1px solid #e5e5e5;font-weight:700}
+.discriptionText .properyDetailsTable .left-table ul li:last-child{border:none}
+.discriptionText .properyDetailsTable .left-table ul li span{float:right}
+footer{width:100%;float:left}
+footer.loading{position:fixed;bottom:0}
+footer.loaded{position:relative}
+@media screen and (max-width:1024px) {
+.agent-second .projectInfoBox .detailSection .amenityBox ul li span.moon span,.projectInfoBox .detailSection .amenityBox ul li em{font-size:20px}
+.agent-second .projectInfoBox .detailSection .amenityBox ul li{padding:15px 0 15px 30px;margin-right:15px}
+}
+@media screen and (max-width:768px) {
+.container-box{min-height:350px}
+.agent-banner{min-height:415px;overflow:hidden}
+.position-sticky{position:relative;top:0;margin:20px 0 40px}
+.m-text-left{text-align:left}
+.agent-second .formPosition{margin:25px -15px -30px}
+}
+@media screen and (max-width:480px) {
+.heading p{text-align:center}
+.agent-second .projectInfoBox .infoBox{padding:30px 30px 30px 15px}
+.agent-banner .container-box .agent-main-heading h1,.agent-banner .container-box .agent-main-heading p,.agent-banner .container-box .agent-main-heading h2,.agent-banner .container-box .agent-main-
+.agent-banner .container-box .agent-main-heading h2{margin-top:15px}
+.agent-second .projectInfoBox .detailSection .amenityBox{padding:0}
+.agent-second .projectInfoBox .detailSection .agent-project-img .mask em{margin-top:50%;line-height:10px}
+.agent-second .projectInfoBox .detailSection .amenityBox ul li{width:100%;margin-right:0;padding:10px 0 10px 30px}
+.discriptionText,map,.wowFectors{padding:30px 15px}
+.agentInfoBox .priceWithSize .available-details{margin-left:0}
+.agentInfoBox .propertyDetailsTable,.agentInfoBox .infoBox .amenityBox,.agentInfoBox .productDescription,.agentInfoBox map,.agentInfoBox .wowFectors,.agentInfoBox .similerProjetctsBox{padding:15px}
+.agentInfoBox .propertyDetailsTable::after{display:none}
+.whiteBox .headingBox span{margin:0 15px}
+.agentInfoBox .similerProjetctsBox .item{padding:0}
+.agentInfoBox .similerProjetctsBox .sliderBox{margin:0}
+.agentInfoBox .propertyDetailsTable ul li{width:100%}
+.agentInfoBox .propertyDetailsTable ul li:nth-child(even){margin-left:0}
+}

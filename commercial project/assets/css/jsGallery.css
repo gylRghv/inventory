@@ -1,0 +1,51 @@
+﻿
+.js-gallery{background-color:#000;color:#fff;position:fixed;z-index:9999!important;top:0;bottom:0;left:0;right:0;display:none;-webkit-tap-highlight-color:transparent}
+.clearfix{float:none!important;clear:both!important}
+.jsg-title{padding:.5rem .5rem 0;border-bottom:1px #333 solid;background-color:#222}
+.jsg-title .jsg-name{display:inline-block;float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:calc(100% - 4rem);padding-top:6px}
+.jsg-title .jsg-btns{display:inline-block;float:right;cursor:pointer}
+.jsg-title .jsg-btns i:hover{text-shadow:0 0 3px #fff}
+.jsg-title .jsg-btns i:active{font-weight:700}
+.jsg-title .jsg-zoom{font-size:1.3rem;display:inline-block}
+.jsg-title .jsg-close{margin-left:12px;display:inline-block}
+.jsg-title .jsg-albums{white-space:nowrap;overflow-x:auto;text-overflow:ellipsis;width:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.jsg-title .jsg-album{text-transform:uppercase;display:inline-block;padding: 5px 15px; color:#999;cursor:pointer;border-bottom:1px transparent solid}
+.jsg-title .jsg-album:hover{color:#fff}
+.jsg-title .jsg-album.active{color:#fff;border-bottom:1px #fff solid}
+.jsg-content{position:relative}
+.jsg-content .jsg-images{width:100%;height:calc(100vh - 72px);position:relative;text-align:center}
+.jsg-content .jsg-thumbnails{display:none}
+.jsg-nav{font-size:1.6rem;transition:all .5s}
+.jsg-nav>div{opacity:.4;position:absolute;top:50%;transform:translateY(-50%);text-shadow:0 0 6px #000;cursor:pointer}
+.jsg-nav>div:hover{opacity:1}
+.jsg-nav>div.disabled{display:none}
+.jsg-nav .jsg-prev{left:4px}
+.jsg-nav .jsg-next{right:4px}
+.jsg-images .preloader{position:absolute;display:inline-block;top:50%;left:50%;font-size:2.5rem;transform:translateY(-50%) translateX(-50%)}
+.jsg-image{position:relative;top:50%;transform:translateY(-50%)}
+@media (min-width: 768px) {
+.jsg-title{padding:.5rem 1rem 0}
+.jsg-title .jsg-name{font-size:.9rem}
+.jsg-title .jsg-albums{overflow-x:hidden}
+.jsg-content .jsg-images{float:left;width:90%;height:calc(100vh - 75px);position:relative}
+.jsg-content .jsg-thumbnails{float:right;width:calc(10% - 2px);border-left:1px #333 solid;height:calc(100vh - 75px);display:inline-block}
+.jsg-content:hover .jsg-nav>div{opacity:.4}
+.jsg-content .jsg-nav>div{opacity:0}
+.jsg-content .jsg-nav>div:hover{opacity:.8}
+.jsg-content .jsg-nav>div:active{font-weight:700;opacity:1}
+.jsg-content .jsg-nav .jsg-prev{left:12px}
+.jsg-content .jsg-nav .jsg-next{right:calc(10% + 12px)}
+.jsg-thumbnails{overflow:auto}
+.jsg-thumbnails::-webkit-scrollbar{width:0;background:transparent}
+.jsg-thumb-item{display:block;width:80%;padding-bottom:80%;margin:20px auto;background-position:center;background-size:cover;background-repeat:no-repeat;cursor:pointer;opacity:.6}
+.jsg-thumb-item.active{border:1px #fff solid;cursor:default;opacity:1}
+}
+.icon-spin-inf{-webkit-animation:icon-spin-inf 2s infinite linear;-moz-animation:icon-spin-inf 2s infinite linear;-o-animation:icon-spin-inf 2s infinite linear;animation:icon-spin-inf 2s infinite linear;display:block}
+@-webkit-keyframes icon-spin-inf {
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+}
+@keyframes icon-spin-inf {
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+}

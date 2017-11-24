@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?k0nk43');
+  src:  url('../fonts/icomoon.eot?k0nk43#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?k0nk43') format('truetype'),
+    url('../fonts/icomoon.woff?k0nk43') format('woff'),
+    url('../fonts/icomoon.svg?k0nk43#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-airport:before {
+  content: "\e943";
+}
+.icon-bank:before {
+  content: "\e944";
+}
+.icon-bus-stop:before {
+  content: "\e945";
+}
+.icon-groceries:before {
+  content: "\e946";
+}
+.icon-hospital:before {
+  content: "\e947";
+}
+.icon-park:before {
+  content: "\e948";
+}
+.icon-pharmacies:before {
+  content: "\e949";
+}
+.icon-railway-station:before {
+  content: "\e94a";
+}
+.icon-school:before {
+  content: "\e94b";
+}
+.icon-shopping-mall:before {
+  content: "\e94c";
+}
+.icon-map-pin:before {
+  content: "\e93f";
+}
+.icon-price:before {
+  content: "\e940";
+}
+.icon-status:before {
+  content: "\e941";
+}
+.icon-unit-type:before {
+  content: "\e942";
+}
+.icon-bars:before {
+  content: "\e93c";
+}
+.icon-movie-theatres:before {
+  content: "\e93d";
+}
+.icon-restaurants:before {
+  content: "\e93e";
+}
+.icon-filter:before {
+  content: "\e929";
+}
+.icon-bathroom .path1:before {
+  content: "\e92a";
+  color: rgb(238, 47, 55);
+}
+.icon-bathroom .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-bedroom .path1:before {
+  content: "\e92c";
+  color: rgb(238, 47, 55);
+}
+.icon-bedroom .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-club .path1:before {
+  content: "\e92e";
+  color: rgb(235, 50, 62);
+}
+.icon-club .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-common .path1:before {
+  content: "\e930";
+  color: rgb(235, 50, 62);
+}
+.icon-common .path2:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-option .path1:before {
+  content: "\e932";
+  color: rgb(238, 47, 55);
+}
+.icon-option .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-parking .path1:before {
+  content: "\e934";
+  color: rgb(235, 50, 62);
+}
+.icon-parking .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-power .path1:before {
+  content: "\e936";
+  color: rgb(45, 45, 45);
+}
+.icon-power .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(235, 50, 62);
+}
+.icon-size .path1:before {
+  content: "\e938";
+  color: rgb(238, 47, 55);
+}
+.icon-size .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-unit .path1:before {
+  content: "\e93a";
+  color: rgb(238, 47, 55);
+}
+.icon-unit .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(55, 0, 4);
+}
+.icon-cancal:before {
+  content: "\e928";
+}
+.icon-apartment:before {
+  content: "\e91e";
+}
+.icon-avrage-rental:before {
+  content: "\e91f";
+}
+.icon-capital-gain:before {
+  content: "\e920";
+}
+.icon-gdp:before {
+  content: "\e921";
+}
+.icon-major-bank:before {
+  content: "\e922";
+}
+.icon-major-developer:before {
+  content: "\e923";
+}
+.icon-median-income:before {
+  content: "\e924";
+}
+.icon-options:before {
+  content: "\e925";
+}
+.icon-position-date:before {
+  content: "\e926";
+}
+.icon-size2:before {
+  content: "\e927";
+}
+.icon-heart-beat:before {
+  content: "\e918";
+}
+.icon-pie-chart:before {
+  content: "\e919";
+}
+.icon-property-identification:before {
+  content: "\e91a";
+}
+.icon-property-life:before {
+  content: "\e91b";
+}
+.icon-transaction-support:before {
+  content: "\e91c";
+}
+.icon-wallet:before {
+  content: "\e91d";
+}
+.icon-envelope:before {
+  content: "\e916";
+}
+.icon-phone:before {
+  content: "\e917";
+}
+.icon-check:before {
+  content: "\e915";
+}
+.icon-mortgage-lost:before {
+  content: "\e90e";
+}
+.icon-appreciation:before {
+  content: "\e906";
+}
+.icon-aroow-down:before {
+  content: "\e907";
+}
+.icon-aroow-left:before {
+  content: "\e908";
+}
+.icon-aroow-right:before {
+  content: "\e909";
+}
+.icon-aroow-up:before {
+  content: "\e90a";
+}
+.icon-income:before {
+  content: "\e90b";
+}
+.icon-location:before {
+  content: "\e90c";
+}
+.icon-ltv-ratio:before {
+  content: "\e90d";
+}
+.icon-smile1:before {
+  content: "\e90f";
+}
+.icon-smile2:before {
+  content: "\e910";
+}
+.icon-smile3:before {
+  content: "\e911";
+}
+.icon-smile4:before {
+  content: "\e912";
+}
+.icon-smile5:before {
+  content: "\e913";
+}
+.icon-transaction-cost:before {
+  content: "\e914";
+}
+.icon-btn-arrow:before {
+  content: "\e905";
+}
+.icon-contact:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-pause:before {
+  content: "\e902";
+}
+.icon-play:before {
+  content: "\e903";
+}
+.icon-replay:before {
+  content: "\e904";
+}
+
+

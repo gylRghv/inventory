@@ -1,0 +1,217 @@
+.cityBannerBox{margin-top:60px;display:block;min-height:323px;background:url(../images/city-bg.jpg) no-repeat center top;background-size:cover!important;position:relative}
+.cityBannerBox h1{font-size:55px;color:#fff;display:block;text-align:center;background:rgba(0,0,0,0.6);position:absolute;bottom:0;left:0;right:0;padding:15px 0}
+.keyFactArea{display:block;margin:-50px 0 25px;position:relative;z-index:9}
+.keyFactArea .keyFactBoxx{background:#fff;min-height:200px;padding:30px;border-radius:3px;box-shadow:0 0 16px 0 rgba(0,0,0,0.1)}
+.keyFactArea .keyFactBoxx .factbox{display:block;margin-bottom:15px}
+.keyFactArea .keyFactBoxx .factbox .factIcon{display:block;text-align:center}
+.keyFactArea .keyFactBoxx .factbox .factText{display:block;margin-top:25px}
+.keyFactArea .keyFactBoxx .factbox .factText p{padding:0;font-size:16px;color:#333;text-align:center}
+.headingArea{display:block;border-bottom:#e5e5e5 solid 1px}
+.headingArea h2{color:#333;padding:30px 0;font-size:28px;text-align:left;font-family:'SourceSansPro-Semibold'}
+.projectDiscription{display:block}
+.projectDiscription .innerTabPanel .leftTabPanel{display:block;min-height:365px;background-image:-moz-linear-gradient(180deg,#f0f4f8 0%,#fff 100%);background-image:-webkit-linear-gradient(180deg,#f0f4f8 0%,#fff 100%);background-image:-ms-linear-gradient(180deg,#f0f4f8 0%,#fff 100%);padding:50px 27px}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs{display:block;border-bottom:0}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li{float:none;border-radius:none;position:relative;margin-bottom:15px;cursor:pointer}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a{display:block;border-radius:3px;border:0;outline:none;padding:15px}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a figure{float:left;margin-right:20px}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a figure img{text-align:center;margin:auto}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a span{display:flex;text-align:left;margin:auto;border-radius:0;border:none;font-size:16px;color:#333;outline:none}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li a:hover{background:#fff;color:#333;border-radius:3px;box-shadow:0 3px 9px 0 rgba(0,0,0,0.08);border:0}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li.active a{display:block;color:#333;border-radius:3px;box-shadow:0 3px 9px 0 rgba(0,0,0,0.08);border:0}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li.active::after{position:absolute;top:35%;right:15px;color:#333;font-size:14px;box-shadow:0 3px 9px 0 rgba(0,0,0,0.08);border:0}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a{padding-left:60px;position:relative}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li > a figure{margin:-16px 0 0;position:absolute;top:50%;left:10px;width:32px;height:32px}
+.projectDiscription .innerTabPanel .rightTabPanel{padding:47px 30px 10px 40px;font-size:16px}
+.tabData{display:block;position:relative;max-height:300px;overflow:hidden;transition:.5s;color:#333}
+.tabData.fullHeight{padding-bottom:50px;max-height:2000px;display:block;transition:.5s}
+.tabData .readMoreBox{height:50px;position:absolute;bottom:0;display:block;width:100%;transition:.5s;cursor:pointer;background:-moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,0.9) 43%,rgba(255,255,255,1) 100%);background:-webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,0.9) 43%,rgba(255,255,255,1) 100%);background:linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,0.9) 43%,rgba(255,255,255,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6ffffff',endColorstr='#ffffff',GradientType=0)}
+.tabData .readMoreBox::before{margin:-7px 0 0 -50px;content:'Show More';position:absolute;left:50%;top:78%;color:#0094da;text-align:left;display:block;font-family:'arial';width:100px}
+.tabData .readMoreBox::after{margin:-10px 0 0 -50px;content:'';position:absolute;left:50%;top:74%;color:#0094da;text-align:right;display:block;font-family:'FontAwesome';width:100px;font-size:20px}
+.tabData.fullHeight .readMoreBox::before{margin:-7px 0 0 -50px;content:'Show Less';position:absolute;left:50%;top:78%;color:#0094da;text-align:left;display:block;font-family:'arial';width:100px}
+.tabData.fullHeight .readMoreBox::after{margin:-10px 0 0 -50px;content:'';position:absolute;left:50%;top:74%;color:#0094da;text-align:right;display:block;font-family:'FontAwesome';width:100px;font-size:20px}
+.keyParametersBox{display:block}
+.keyParametersBox .tabPanel{width:100%;display:inline-block;overflow:hidden;padding:40px 50px 0;border-bottom:1px solid #e1e1e1;margin-bottom:50px;background:#f0f4f8}
+.keyParametersBox .tabPanel ul{padding:0;margin:0;list-style:none;position:relative}
+.keyParametersBox .tabPanel ul li{float:left}
+.keyParametersBox .tabPanel ul li a{display:block;background:#fff;border-radius:3px 3px 0 0;border:2px solid #d5d8db;border-bottom:0;font-size:22px;color:#000;font-family:'SourceSansPro-Semibold';padding:15px 50px;margin:0 15px 0 0;text-transform:uppercase;outline:none;text-decoration:none}
+.keyParametersBox .tabPanel ul li a:hover{color:#0094da;box-shadow:0 0 16px 0 rgba(0,0,0,0.14);border-top:2px solid #0094da;margin:0 15px -1px 0;overflow:hidden}
+.keyParametersBox .tabPanel ul li a.active{color:#0094da;box-shadow:0 0 16px 0 rgba(0,0,0,0.14);border-top:2px solid #0094da;margin:0 15px -1px 0}
+.keyParametersBox h2{font-size:22px;color:#000;text-align:left;margin-bottom:15px;font-family:'SourceSansPro-Semibold'}
+.keyParametersBox .sliderBox{padding-right:175px;margin-top:0;display:block;background:#fff;-webkit-box-shadow:0 3px 6px 0 rgba(0,0,0,0.24);box-shadow:0 3px 6px 0 rgba(0,0,0,0.24);height:165px;width:100%;border-radius:5px;position:relative;overflow:hidden;border:1px solid #ececec}
+.keyParametersBox .sliderBox .item{padding:25px;text-align:center}
+.keyParametersBox .sliderBox .item em{margin-bottom:15px;font-size:30px;color:#0094da}
+.keyParametersBox .sliderBox .item h4{padding-top:5px;font-size:30px;color:#333}
+.keyParametersBox .sliderBox .item p{margin:0;font-size:16px;color:#333}
+.keyParametersBox .sliderBox .owl-controls{padding-top:55px;margin:0;border-left:#e5e5e5 solid 1px;position:absolute;top:0;right:-175px;height:100%;width:175px}
+.keyParametersBox .sliderBox .owl-controls .owl-prev{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px}
+.keyParametersBox .sliderBox .owl-controls .owl-next{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px}
+.keyParametersBox .sliderBox .owl-controls .owl-prev:hover,.keyParametersBox .sliderBox .owl-controls .owl-next:hover{background:#ee2f37;color:#fff;border:#ee2f37 solid 1px}
+.opportunitiesBox{padding:0 0 40px;display:block;background:#fff}
+.opportunitiesBox h2{font-size:44px;color:#333;display:block;text-align:center;padding:30px 0 0;margin:0}
+.opportunitiesBox .opportunitiesSlider{display:block;margin-top:25px;overflow:hidden}
+.opportunitiesBox .viewMoreBox{display:block;text-align:center;padding:15px}
+.opportunitiesBox .viewMoreBox .tileBtn{text-decoration:none;transition:.5s;outline:none;text-align:center;color:#fff;font-size:16px;background:#59b72d;border-radius:3px;width:150px;height:45px;margin:auto;cursor:pointer;position:relative}
+.opportunitiesBox .viewMoreBox .tileBtn::before{content:'Show More';position:absolute;color:#fff;left:22%;top:25%}
+.opportunitiesBox .viewMoreBox .tileBtn::after{content:'';position:absolute;color:#fff;left:68%;top:18%;margin-left:10px;font-size:20px;font-family:'FontAwesome'}
+.opportunitiesBox.fullHeight .viewMoreBox .tileBtn::before{content:'Show Less';position:absolute;color:#fff;left:25%;top:25%}
+.opportunitiesBox.fullHeight .viewMoreBox .tileBtn::after{content:'';position:absolute;color:#fff;left:68%;top:18%;font-size:20px;font-family:'FontAwesome'}
+
+
+.opportunitiesBox .opportunitiesSlider .sliderBox{margin:0 -15px}
+.opportunitiesBox .opportunitiesSlider .item{padding:20px;width:33%;float:left}
+.opportunitiesBox .opportunitiesSlider .item .smallTile{background:#fff;border-radius:4px;overflow:hidden;border:1px solid #dfdfdf}
+.opportunitiesBox .opportunitiesSlider .item .smallTile figure{display:block}
+.opportunitiesBox .opportunitiesSlider .item .smallTile figure img{max-width:100%;max-height:100%}
+.opportunitiesBox .opportunitiesSlider .item .smallTile:hover{-webkit-box-shadow:0 8px 15px 0 rgba(0,0,0,0.2);box-shadow:0 8px 15px 0 rgba(0,0,0,0.2)}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox{padding:20px 20px 0;display:block}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox h4{padding-bottom:5px;margin:0;font-size:20px;color:#262626;display:block;text-align:center;font-family:'SourceSansPro-Semibold';text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .list{padding:10px 0 0;display:block;overflow:hidden;position:relative}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .list::after{content:'';position:absolute;top:22px;left:0;display:block;width:100%;height:1px;border-top:#d8d8d8 dotted 2px;font-size:50px;letter-spacing:20px}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .list span{padding-right:5px;display:block;float:left;background:#fff;font-size:16px;position:relative;z-index:1;color:#666}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .list strong{padding-left:5px;display:block;float:right;background:#fff;font-weight:400;font-size:16px;position:relative;z-index:1;color:#333}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .list strong.red{color:#ee2f37}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .btn{margin:25px 0;display:block;width:100%;border:#ee2f37 solid 1px;color:#ee2f37;line-height:30px;font-size:14px;text-transform:uppercase}
+.opportunitiesBox .opportunitiesSlider .item .smallTile .detailsBox .btn:hover{background:#ee2f37;color:#fff}
+.opportunitiesBox .opportunitiesSlider .owl-controls{padding:20px 30px 10px;margin:0;width:100%}
+.opportunitiesBox .opportunitiesSlider .owl-controls .owl-prev{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px;opacity:1;position:absolute;top:35%;left:-5%}
+.opportunitiesBox .opportunitiesSlider .owl-controls .owl-next{padding:8px;font-family:'icomoon';font-size:22px;color:#ee2f37;background:#fff;border:#e6e6e6 solid 1px;border-radius:50%;width:50px;height:50px;opacity:1;position:absolute;top:35%;right:-5%}
+.opportunitiesBox .opportunitiesSlider .owl-controls .owl-prev:hover,.similerProjetctsBox .sliderBox .owl-controls .owl-next:hover{background:#ee2f37;color:#fff;border:#ee2f37 solid 1px}
+.cityMicromarketBox{padding:30px 0 55px;display:block;background:#f0f4f8}
+.cityMicromarketBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+.cityMicromarketBox .microTilesBox{display:block}
+.cityMicromarketBox .microTilesBox .microTile{margin-bottom:20px;display:block;background:#fff;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.11);box-shadow:0 2px 5px 0 rgba(0,0,0,0.11);border-radius:3px}
+.cityMicromarketBox .microTilesBox .microTile .locationBox{padding:12px 15px;display:block;font-size:18px;color:#262626;border-bottom:#e5e5e5 solid 1px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox{display:block;overflow:hidden}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid{display:block;border-left:#e5e5e5 solid 1px;float:left;min-height:100px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box{padding:15px 50px;display:block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box .heading{font-size:16px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1{border-left:none;width:45%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .heading{color:#929292;text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .avgPriceBox{display:block;font-size:28px;color:#464646;font-family:'SourceSansPro-Bold';text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1 .avgPriceBox span{font-size:13px;font-family:'SourceSansPro-Light'}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2{width:55%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .heading{color:#59b72d;text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .appreciationBox{display:block;font-size:28px;color:#59b72d;font-family:'SourceSansPro-Bold';text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2 .appreciationBox em{font-size:20px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3{width:40%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 .heading{color:#000;text-align:left}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul{padding-top:10px;display:block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li{margin-right:5px;display:inline-block}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li em{display:block;font-size:28px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(1) em{color:#d72449}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(2) em{color:#ee772e}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(3) em{color:#ffc13f}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(4) em{color:#a5c324}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li:nth-child(5) em{color:#4eca19}
+.cityMicromarketBox .micromarket-map{background:url(https://d2e9thu7mhurn3.cloudfront.net/assets/images/mp-bg.jpg) left top #dfdfdf;overflow:hidden;text-align:left;height:662px}
+.cityMicromarketBox .btnArea{display:inline-block;width:100%;margin-top:50px;text-align:center}
+.cityMicromarketBox .btnArea a.tileBtn{text-decoration:none;outline:none;padding:15px 30px;text-align:center;color:#fff;font-size:16px;background:#59b72d;border-radius:3px}
+.tabTile{display:block;position:relative;max-height:560px;overflow:hidden;transition:.5s;color:#333}
+.tabTile.fullHeight{padding-bottom:50px;max-height:10000px;display:block;transition:.5s}
+.tabTile .viewMoreBox{display:block;width:100%;z-index:9;text-align:center;position:absolute;bottom:0;background:#f0f4f8;padding:10px 15px 0 0}
+.tabTile .viewMoreBox .tileBtn{text-decoration:none;transition:.5s;outline:none;text-align:center;color:#fff;font-size:16px;background:#59b72d;border-radius:3px;width:150px;height:45px;margin:auto;cursor:pointer;position:relative}
+.tabTile .viewMoreBox .tileBtn::before{content:'Show More';position:absolute;color:#fff;left:22%;top:25%}
+.tabTile .viewMoreBox .tileBtn::after{content:'';position:absolute;color:#fff;left:68%;top:18%;margin-left:10px;font-size:20px;font-family:'FontAwesome'}
+.tabTile.fullHeight .viewMoreBox .tileBtn::before{content:'Show Less';position:absolute;color:#fff;left:25%;top:25%}
+.tabTile.fullHeight .viewMoreBox .tileBtn::after{content:'';position:absolute;color:#fff;left:68%;top:18%;font-size:20px;font-family:'FontAwesome'}
+.cityAboutBox{padding:0 0 55px;display:block;background:#f0f4f8}
+.cityAboutBox h2{padding:30px 0;font-size:44px;color:#333;display:block;text-align:center}
+.cityAboutBox p{color:#666;font-size:18px}
+.connectivityBox{padding:30px 0 55px;display:block;background:#f0f4f8}
+.connectivityBox figure{-webkit-box-shadow:0 0 59px 0 rgba(0,0,0,0.33);box-shadow:0 0 59px 0 rgba(0,0,0,0.33)}
+.connectivityBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+.connectivityBox h4{padding:20px 0 10px;font-size:18px;color:#333;display:block;font-weight:400;font-family:'SourceSansPro-Bold'}
+.connectivityBox p{color:#666;font-size:18px}
+.connectivityBox ul{display:block}
+.connectivityBox ul li{display:block;color:#666;font-size:18px;line-height:38px}
+.connectivityBox ul li em{color:#0094da;font-size:16px;padding-right:10px}
+.connectivityBox a{display:inline-block;color:#0094da;font-size:18px}
+.trendBox{padding:30px 0 55px;display:block;background:#fff}
+.trendBox h2{padding:20px 0 30px;font-size:44px;color:#333;display:block;text-align:center}
+@media (max-width:1366px) {
+.keyFactBox ul li p{font-size:16px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box{padding:15px 30px}
+.cityAboutBox p{font-size:16px}
+.connectivityBox p{font-size:16px}
+.connectivityBox ul li{font-size:16px}
+.keyParametersBox .tabPanel{padding:30px 0 0}
+.keyParametersBox .tabPanel ul li a{padding:15px 40px}
+}
+@media (max-width:1280px) {
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box{padding:15px}
+.opportunitiesBox .opportunitiesSlider .ovel.left{left:-100px}
+.opportunitiesBox .opportunitiesSlider .ovel.right{right:-100px}
+}
+@media (max-width:1024px) {
+.keyFactBox{width:90%}
+.keyParametersBox .sliderBox .item{padding:25px 10px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid .box .heading{font-size:14px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 ul li em{font-size:25px}
+.connectivityBox ul li{line-height:28px}
+}
+@media (max-width:768px) {
+.cityBannerBox h1{font-size:45px}
+.keyFactBox{width:100%}
+.keyParametersBox .tabPanel{padding:40px 0 0;margin-bottom:10px}
+.keyParametersBox .tabPanel ul li{ margin-top:10px; width:49%}
+	.keyParametersBox .tabPanel ul li:nth-child(even){ margin-left: 2%; }
+.keyParametersBox .tabPanel ul li a{margin:0px  !important}
+.opportunitiesBox .opportunitiesSlider .ovel.left{left:-20px}
+.opportunitiesBox .opportunitiesSlider .ovel.right{right:-20px}
+.opportunitiesBox .opportunitiesSlider .item{width:50%}
+.connectivityBox figure{margin-bottom:25px}
+}
+@media screen and (max-width:640px) {
+/*.projectDiscription .innerTabPanel .leftTabPanel{min-height:inherit;padding:0 27px;background-image:-moz-linear-gradient(90deg,#f0f4f8 0%,#fff 100%);background-image:-webkit-linear-gradient(90deg,#f0f4f8 0%,#fff 100%);background-image:-ms-linear-gradient(90deg,#f0f4f8 0%,#fff 100%)}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs{white-space:nowrap;overflow:hidden;overflow-x:auto}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li{display:inline-block;margin-top:12px;margin-bottom:12px}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li.active::after{content:''}
+.projectDiscription .innerTabPanel .leftTabPanel .nav-tabs > li:last-child{border-bottom:0}*/
+	
+	.projectDiscription .innerTabPanel .leftTabPanel{ padding:15px; min-height: inherit;    border: #f1f1f1 solid 1px;}	
+	
+	
+.projectDiscription .innerTabPanel .rightTabPanel{border-left:0}
+.cityBannerBox .keyFactBoxSlider .item .keyFactBox ul li{width:100%;padding:25px 15px 25px 30px}
+.cityBannerBox h1{font-size:35px}
+.keyFactBox ul li{padding:15px;width:100%;text-align:center}
+.keyFactBox ul li figure{margin-bottom:15px;position:inherit;left:inherit;top:inherit}
+.keyFactBox ul li:first-child{border:none;border-bottom:#5a3f32 solid 1px}
+.keyParametersBox .sliderBox{padding:0;margin-top:20px;height:auto}
+.keyParametersBox .sliderBox .owl-controls{padding:20px;position:inherit;right:inherit;top:inherit;border:none;border-top:#e5e5e5 solid 1px;width:100%}
+.opportunitiesBox h2,.cityMicromarketBox h2,.cityAboutBox h2,.connectivityBox h2,.trendBox h2{font-size:35px}
+.cityMicromarketBox .micromarket-map{height:350px}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid1{width:50%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid2{width:50%}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3{width:100%;border:none;border-top:#e5e5e5 solid 1px;text-align:center}
+.cityMicromarketBox .microTilesBox .microTile .detailsBox .grid3 .heading{text-align:center}
+.keyParametersBox .tabPanel ul li a{font-size:16px;padding:15px 30px}
+}
+@media screen and (max-width:480px) {
+.opportunitiesBox{padding:0}
+.cityBannerBox h1{font-size:25px}
+.opportunitiesBox h2,.cityMicromarketBox h2,.cityAboutBox h2,.connectivityBox h2,.trendBox h2{font-size:25px}
+.cityAboutBox p,.connectivityBox p{text-align:justify}
+.opportunitiesBox .opportunitiesSlider ul li.smallTile{width:100%!important}
+.opportunitiesBox .opportunitiesSlider .ovel.left{left:0;top:205px}
+.opportunitiesBox .opportunitiesSlider .ovel.right{right:0;top:205px}
+.cityBannerBox .keyFactBoxSlider .item .keyFactBox{width:inherit}
+.projectDiscription .innerTabPanel .rightTabPanel{padding:15px;text-align:justify}
+.keyParametersBox .tabPanel{margin-bottom:0}
+.keyParametersBox .tabPanel ul li a{padding:10px 15px;margin-right:8px!important;font-size:13px}
+.projectDiscription .innerTabPanel .rightTabPanel{padding:30px 0}
+.opportunitiesBox .opportunitiesSlider .item{padding:30px 0 0;width:100%}
+.opportunitiesBox .opportunitiesSlider .item img{width:100%}
+}
+@media screen and (max-width:360px) {
+.cityBannerBox{min-height:225px}
+.headingArea h2{font-size:24px}
+.keyParametersBox .tabPanel ul li a{font-size:12px}
+}
+@media screen and (max-width:320px) {
+.cityBannerBox h1{font-size:18px}
+.footerlinkBox .searchPropertyCitybox{font-size:16px}
+.opportunitiesBox .opportunitiesSlider ul{left:-165px!important;width:300px!important}
+.opportunitiesBox .opportunitiesSlider ul li{width:300px!important}
+.keyParametersBox .tabPanel ul li a{padding:10px 12px}
+}

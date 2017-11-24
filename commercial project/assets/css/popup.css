@@ -1,0 +1,15 @@
+.popupOverly{width:100%;height:100%;position:fixed;z-index:999;background-color:rgba(0,0,0,0.6);display:block}
+.popupOverly.active{display:none}
+.popupOverly .popUp{width:595px; background: #fff; border-radius: 3px; position:fixed;top:15%;left:50%;margin-left:-300px; overflow: hidden;}
+.popupOverly .popUp figure{display:block;text-align:center}
+.popupOverly .popUp .logostrip{display:block;position:relative;padding:10px; background: url(../images/pattern-design.png) no-repeat;}
+.popupOverly .popUp .logostrip em{font-size:20px;color:#d0d0d0;position:absolute;top:30px;right:15px;cursor:pointer}
+.popupOverly .popUp .popupBody { display: block; padding: 30px 30px; overflow: hidden; background: url(../images/map-bg-pop.png) no-repeat center;}
+.popupOverly .popUp .popupBody .textArea{display:block;margin:10px 0px 20px 0px;}
+.popupOverly .popUp .popupBody .textArea .heading{font-size:24px;color:#333;font-family:'SourceSansPro-Semibold'}
+.popupOverly .popUp .popupBody .textArea p{font-size:16px;color:#333;padding:0;margin:0}
+.popupOverly .popUp .popupBody .btnArea{display:inline-block;width:100%;margin:10px 0 0px}
+.popupOverly .popUp .popupBody .btnArea a.popupBtn{text-decoration:none;outline:none;border:1px solid #1f2a3b;border-radius:3px;padding:15px 30px;color:#1f2a3b;margin-right:15px;font-size:16px;font-family:'SourceSansPro-Semibold';float:left}
+.popupOverly .popUp .popupBody .btnArea a.popupBtnRed{display:inline-flex;text-decoration:none;outline:none;background:#ee2f37;border-radius:3px;padding:15px 30px;box-shadow:0 2px 8px 0 rgba(0,0,0,0.35)}
+.popupOverly .popUp .popupBody .btnArea a.popupBtnRed span{color:#fff;font-size:16px;font-family:'SourceSansPro-Semibold';text-align:center;display:inline-block}
+.popupOverly .popUp .popupBody .btnArea a.popupBtnRed em{margin-left:10px;font-size:18px;color:#fff;margin-top:4px}
